@@ -10,16 +10,16 @@ blocks:
   - type: hero
     badge: Talk to Dave
     title: Contact us
-    lead: Book your PIPA test, standard test, PAT test, RPII course or inflatable repair &mdash; or order equipment.
+    lead: Book your PIPA test, standard test, PAT test, RPII course or inflatable repair, or order equipment.
   - type: icon-links
     intro_content: |
       ## Phone or email Dave
     items:
       - icon: mdi:cellphone
-        text: Call Dave &mdash; 07990 520545
+        text: Call Dave on 07990 520545
         url: tel:+447990520545
       - icon: mdi:phone-classic
-        text: Office &mdash; 01428 751925
+        text: Office on 01428 751925
         url: tel:+441428751925
       - icon: mdi:email
         text: pipatesting@gmail.com
@@ -27,7 +27,7 @@ blocks:
   - type: split-callout
     title: Where Dave covers
     content: |
-      Based near **Portsmouth (Havant, Hampshire)** with an additional office near **Guildford**, Dave covers Hampshire, Surrey, Sussex and the rest of the south of England, and travels right across the UK &mdash; including a regular client base in Wales.
+      Based near **Portsmouth (Havant, Hampshire)** with an additional office near **Guildford**, Dave covers Hampshire, Surrey, Sussex and the rest of the south of England, and travels right across the UK, including a regular client base in Wales.
 
       Schools, leisure centres and **MOD sites** are all welcome. Inspections can be carried out on-site at your venue or at the Havant base.
     figure_icon: mdi:map-marker-radius

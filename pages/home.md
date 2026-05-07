@@ -11,7 +11,7 @@ blocks:
     class: gradient
     badge: RPII-accredited PIPA inspector
     title: Inflatable inspections by Dave Morris
-    lead: PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs &mdash; for bouncy castles, slides, obstacle courses, bouncing pillows and more.
+    lead: PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs, covering bouncy castles, slides, obstacle courses, bouncing pillows and more.
     buttons:
       - text: Call Dave
         href: tel:+447990520545
@@ -28,11 +28,11 @@ blocks:
     content: All inspections from **January to March** are just **&pound;40 + VAT**.
   - type: section-header
     intro: |
-      ## Everything you need to keep operating
+      ## What we do
 
-      Dave is an accredited **RPII** and **PIPA** inspector, operating as part of **Monster Event Hire**. He carries out inflatable inspections, PAT tests, repairs and RPII operator courses &mdash; on-site at your venue or at the Havant base.
+      Dave is an accredited **RPII** and **PIPA** inspector, working out of **Monster Event Hire**. He carries out inflatable inspections, PAT tests, repairs and RPII operator courses, either on-site at your venue or at the Havant base.
 
-      All inflatable play equipment is tested to **BS EN 14960:2019**, with PIPA tags and certificates issued on passing the inspection.
+      All inflatable play equipment is tested to **BS EN 14960:2019**, and PIPA tags and certificates go out on passing the inspection.
   - type: features
     items:
       - icon: mdi:shield-check
@@ -43,7 +43,7 @@ blocks:
         description: Annual inspections to **BS EN 14960:2019** for non-PIPA inflatables.
       - icon: mdi:school
         title: RPII courses
-        description: Operating &amp; Attendant courses &mdash; 3-year RPII registration on completion.
+        description: Operating &amp; Attendant courses, with 3-year RPII registration on completion.
       - icon: mdi:flash
         title: PAT testing
         description: Portable Appliance Testing for fans, blowers and extension leads.
@@ -54,12 +54,12 @@ blocks:
         title: Equipment sales
         description: Compliant 16mm anchor stakes, barrier fencing and repair kits.
   - type: split-image
-    title: One inspector, one number
+    title: Dave does the inspection himself
     subtitle: Meet Dave Morris
     content: |
-      When you book an inspection with us, **Dave personally turns up to do the work**. No subcontractors, no handoffs &mdash; one accredited inspector with the experience to do the job properly.
+      When you book with us, Dave personally turns up to do the work. He doesn't subcontract any of it, and there's no handoff between booking the slot and what happens on the day, so the same RPII-accredited inspector is on the job from the first call through to the certificate.
 
-      Dave inspects bouncy castles, slides, obstacle courses, fun runs, bouncing pillows, bungee runs, rodeo bulls, surf simulators, ball pools and more.
+      Over the years he's tested everything from the everyday bouncy-castle hire fleet through to slides, obstacle courses, fun runs, bouncing pillows, bungee runs, rodeo bulls, surf simulators and ball pools.
     button:
       text: About Dave
       href: /about/
@@ -69,7 +69,7 @@ blocks:
   - type: split-callout
     title: Coverage
     content: |
-      Based near **Portsmouth (Havant, Hampshire)** with an additional office near **Guildford**, Dave covers Hampshire, Surrey, Sussex and the wider south of England, and travels right across the UK &mdash; including a regular client base in Wales.
+      Based near **Portsmouth (Havant, Hampshire)** with an additional office near **Guildford**, Dave covers Hampshire, Surrey, Sussex and the wider south of England, and travels right across the UK, including a regular client base in Wales.
 
       Schools, leisure centres and **MOD sites** are all welcome.
     figure_icon: mdi:map-marker-radius

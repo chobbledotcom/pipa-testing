@@ -10,7 +10,7 @@ blocks:
   - type: hero
     badge: BS EN 14960:2019
     title: Standard test
-    lead: Annual inspections for non-PIPA inflatables to the latest European safety standard, by Dave Morris &mdash; an RPII-accredited inspector.
+    lead: Annual inspections for non-PIPA inflatables to the latest European safety standard, by Dave Morris, an RPII-accredited inspector.
     buttons:
       - text: Book a test
         href: /contact/
@@ -21,14 +21,14 @@ blocks:
 
       Dave is a nationally qualified inspector and member of the **RPII**. Your inflatables will be tested to **BS EN 14960:2019**, with a safety certificate issued on **passing the inspection**. Electrical items can be PAT tested at the same time.
 
-      Standard tests cover non-PIPA inflatables that still have to meet EN 14960 &mdash; for example human table footballs, bungee runs, eliminators, ball pools, rodeo bulls, surf simulators, boxing rings and gladiator duels.
+      Standard tests cover non-PIPA inflatables that still have to meet EN 14960. Examples include human table footballs, bungee runs, eliminators, ball pools, rodeo bulls, surf simulators, boxing rings and gladiator duels.
   - type: features
     intro_content: |
       ## Pricing at a glance
     items:
       - icon: mdi:clipboard-text
         title: Annual inspection
-        description: From **&pound;40.00** &mdash; depends on inflatable size.
+        description: From **&pound;40.00**, depending on inflatable size.
       - icon: mdi:file-certificate
         title: Test certificate
         description: "**&pound;10.00**"
@@ -51,12 +51,12 @@ blocks:
     content: |
       If required works are carried out by Dave, a charge of **&pound;15.00 + VAT** is payable for re-test on failed parts only.
 
-      On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs will apply, within a 14-day period &mdash; or full test charge applies.
+      On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs will apply, within a 14-day period. Outside that window the full test charge applies.
 
       **Missed appointments** are charged at the full test rate, so please give as much notice as possible if you need to reschedule.
     figure_icon: mdi:alert-octagon
     figure_title: Re-test charges
-    figure_subtitle: Failed parts only &mdash; within 14 days
+    figure_subtitle: Failed parts only, within 14 days
     figure_variant: secondary
   - type: section-header
     intro: |
@@ -66,15 +66,15 @@ blocks:
       - icon: mdi:check
         text: Seams and stitching
       - icon: mdi:check
-        text: Anchor points and accessories &mdash; 4 rows of stitching, correct number of 18mm &times; 380mm anchor stakes per inflatable
+        text: Anchor points and accessories - 4 rows of stitching, correct number of 18mm &times; 380mm anchor stakes per inflatable
       - icon: mdi:check
-        text: Step size &mdash; 1.5 times the bed height
+        text: Step size - 1.5 times the bed height
       - icon: mdi:check
-        text: Markings &mdash; max users, max user height with measurement, identification, blower / inspection tube, zips
+        text: Markings - max users, max user height with measurement, identification, blower / inspection tube, zips
       - icon: mdi:check
-        text: Internal air pressure test &mdash; minimum 4" on the manometer gauge
+        text: Internal air pressure test - minimum 4" on the manometer gauge
       - icon: mdi:check
-        text: Fall from height &mdash; max 630mm
+        text: Fall from height - max 630mm
       - icon: mdi:check
         text: Structural integrity
       - icon: mdi:check

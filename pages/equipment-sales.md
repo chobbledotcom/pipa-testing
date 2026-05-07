@@ -10,7 +10,7 @@ blocks:
   - type: hero
     badge: All prices + VAT
     title: Equipment sales
-    lead: Compliant anchor stakes, barrier fencing and bouncy castle repair kits &mdash; everything you need to keep your kit ready for inspection.
+    lead: Compliant anchor stakes, barrier fencing and bouncy castle repair kits, the bits and pieces you need to keep your kit in good order between inspections.
     buttons:
       - text: Order from Dave
         href: tel:+447990520545
@@ -33,9 +33,9 @@ blocks:
       - image: /images/orangefencing.jpg
         title: Barrier fencing
         description: |
-          50 metre rolls &mdash; **&pound;26.00 + VAT** per roll.
+          50 metre rolls at **&pound;26.00 + VAT** per roll.
 
-          1.5m fencing stakes &mdash; **&pound;4.50 + VAT** each.
+          1.5m fencing stakes at **&pound;4.50 + VAT** each.
         link: /contact/
   - type: callout
     variant: info
