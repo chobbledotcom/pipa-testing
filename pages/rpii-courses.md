@@ -10,7 +10,7 @@ blocks:
   - type: hero
     badge: Train your operators &amp; attendants
     title: RPII operator courses
-    lead: Hands-on training for inflatable operators and attendants &mdash; delivered by an RPII-accredited inspector.
+    lead: Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
     buttons:
       - text: Book a course
         href: /contact/
@@ -20,11 +20,11 @@ blocks:
         variant: secondary
   - type: section-header
     intro: |
-      ## Safe, certified operators
+      ## What the courses cover
 
       Dave's RPII Operating &amp; Attendant courses train your team to set up, run and supervise inflatables safely, in line with current industry guidance.
 
-      On completion, participants are added to the **RPII Register of Safe Operators and Attendants** for **three years** &mdash; giving your business a recognised credential and your customers peace of mind.
+      On completion, participants are added to the **RPII Register of Safe Operators and Attendants** for **three years**, which gives your business a recognised credential to point customers and venues at when they ask.
   - type: features
     intro_content: |
       ## What's covered
@@ -50,7 +50,7 @@ blocks:
   - type: split-callout
     title: Who it's for
     content: |
-      The course is aimed at **commercial operators and their attendants** &mdash; bouncy-castle hire firms, event-hire businesses, leisure centres, schools and MOD sites who run inflatables in-house.
+      The course is aimed at **commercial operators and their attendants**, including bouncy-castle hire firms, event-hire businesses, leisure centres, schools and MOD sites who run inflatables in-house.
 
       Group bookings are welcome. Dave can run the course at your premises or at the Havant base.
     figure_icon: mdi:account-group

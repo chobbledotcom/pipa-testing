@@ -8,7 +8,7 @@ no_index: true
 blocks:
   - type: hero
     title: Thank you
-    lead: Your message has been sent &mdash; we will be in touch.
+    lead: Your message has been sent, and we'll be in touch as soon as Dave is back at his desk.
     buttons:
       - text: Back to homepage
         href: /

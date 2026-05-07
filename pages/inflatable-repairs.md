@@ -10,7 +10,7 @@ blocks:
   - type: hero
     badge: On-site &amp; workshop repairs
     title: Inflatable repairs
-    lead: From split seams to broken anchors and blown beds, Dave can keep your inflatables safe, compliant and ready for play.
+    lead: Split seams, broken anchors, blown beds and the rest. Dave does the repairs in the workshop or on-site, depending on what's gone and how big the job is.
     buttons:
       - text: Get an estimate
         href: /contact/
@@ -19,7 +19,7 @@ blocks:
     variant: info
     icon: mdi:wrench-clock
     title: Often fixed on the same visit
-    content: Many minor repairs &mdash; small splits, anchor points, leaking seams &mdash; can be done **on-site** while Dave is there for an inspection, so the inflatable doesn't have to come back for a re-test.
+    content: Many of the smaller repairs (small splits, anchor points, leaking seams and so on) can be done **on-site** while Dave is already there for the inspection, so the inflatable doesn't have to come back for a re-test.
   - type: features
     intro_content: |
       ## What Dave repairs

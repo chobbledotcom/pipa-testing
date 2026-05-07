@@ -63,7 +63,7 @@ blocks:
     items:
       - icon: mdi:castle
         title: Bouncy castles &amp; slides
-        description: The everyday hire fleet &mdash; the bread and butter of the PIPA scheme.
+        description: The everyday hire fleet that makes up the bulk of the PIPA scheme's day-to-day work.
       - icon: mdi:run
         title: Obstacle courses &amp; fun runs
         description: Larger walk-through and run-through inflatables.
@@ -78,7 +78,7 @@ blocks:
         description: PIPA tags for inflatable axe-throwing and archery ranges.
       - icon: mdi:rocket-launch
         title: Bungee runs
-        description: To **BS EN 14960-4:2025** &mdash; minimum height, max weight and user safety.
+        description: Tested to **BS EN 14960-4:2025**, covering minimum height, max weight and user safety.
   - type: features
     intro_content: |
       ## Other testing &amp; logistics
@@ -100,12 +100,12 @@ blocks:
     content: |
       If required works are carried out by Dave, a charge of **&pound;15.00 + VAT** is payable for re-test on failed parts only.
 
-      On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs will apply, within a 14-day period &mdash; or full test charge applies.
+      On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs will apply, within a 14-day period. Outside that window the full test charge applies.
 
       **Missed appointments** are charged at the full test rate, so let Dave know as early as possible if you need to reschedule.
     figure_icon: mdi:alert-octagon
     figure_title: Re-test charges
-    figure_subtitle: Failed parts only &mdash; within 14 days
+    figure_subtitle: Failed parts only, within 14 days
     figure_variant: secondary
   - type: features
     intro_content: |
@@ -116,7 +116,7 @@ blocks:
         description: Designed to a recognised standard based on safety.
       - icon: mdi:account-tie
         title: Qualified inspector
-        description: Tested by a nationally qualified RPII inspector &mdash; that's Dave.
+        description: Tested by Dave, a nationally qualified RPII inspector.
       - icon: mdi:office-building
         title: Commercial use
         description: Equipment approved for commercial hire and use.
