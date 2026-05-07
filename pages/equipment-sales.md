@@ -1,45 +1,53 @@
 ---
 permalink: /equipment-sales/
-layout: page.html
-header_text: Equipment Sales
+layout: design-system-base.html
 meta_title: Inflatable Anchor Stakes, Barrier Fencing & Repair Kits | PIPA Testing
-meta_description: Compliant 16mm anchor stakes, orange barrier fencing and bouncy castle repair kits available to buy.
+meta_description: Compliant 16mm anchor stakes, orange barrier fencing and bouncy castle repair kits available to buy. Phone or email to order.
 eleventyNavigation:
   key: Equipment Sales
   order: 6
 blocks:
-  - type: section-header
-    intro: |
-      ## Equipment for sale
+  - type: hero
+    badge: All prices + VAT
+    title: Equipment sales
+    lead: Compliant anchor stakes, barrier fencing and bouncy castle repair kits &mdash; everything you need to keep your kit ready for inspection.
+    buttons:
+      - text: Order by phone
+        href: tel:+447990520545
+        variant: primary
+      - text: Email us
+        href: mailto:pipatesting@gmail.com
+        variant: secondary
+  - type: image-cards
+    intro_content: |
+      ## Available to order
+    image_aspect_ratio: 4/3
+    items:
+      - image: /images/18mmgroundstake.jpg
+        title: Compliant anchor stakes
+        description: |
+          16mm dia rebar &times; 380mm o/a. Fully sharpened and deburred. Yellow zinc passivate finish.
 
-      Compliant anchor stakes, barrier fencing and bouncy castle repair kits — everything you need to keep your kit ready for inspection.
-  - type: split-image
-    title: Compliant anchor stakes
-    subtitle: 16mm dia rebar &times; 380mm o/a
-    content: |
-      Fully sharpened and deburred. Finish in **yellow zinc passivate**.
+          **&pound;3.50 each + VAT**
+        link: /contact/
+      - image: /images/orangefencing.jpg
+        title: Barrier fencing
+        description: |
+          50 metre rolls &mdash; **&pound;26.00 + VAT** per roll.
 
-      **£3.50 each + VAT**
-    figure_src: /images/18mmgroundstake.jpg
-    figure_alt: 16mm yellow zinc passivate anchor stake
-  - type: split-image
-    reverse: true
-    title: Barrier fencing and stakes
-    content: |
-      - Fencing: **£26.00 + VAT** per 50 metre roll
-      - Stakes: **£4.50 + VAT** — 1.5 metres long
-    figure_src: /images/orangefencing.jpg
-    figure_alt: Orange barrier fencing on stakes
+          1.5m fencing stakes &mdash; **&pound;4.50 + VAT** each.
+        link: /contact/
   - type: callout
     variant: info
-    icon: "&#128295;"
+    icon: mdi:tools
     title: Bouncy castle repair kit
-    content: Fabric and glue, **£20.00 + VAT**.
+    content: Fabric and glue, **&pound;20.00 + VAT**. Phone or email to order.
   - type: cta
     title: Place an order
-    description: Phone **07990520545** or send us a message to order equipment.
+    description: Phone **07990 520545** or send us a message to order equipment.
     button:
       text: Contact us
       href: /contact/
-      variant: primary
+      variant: secondary
+      size: lg
 ---
