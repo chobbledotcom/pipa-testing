@@ -5,7 +5,7 @@ meta_title: Contact Dave Morris | PIPA Testing
 meta_description: Get in touch with Dave Morris (RPII inspector) to book a PIPA test, standard test, PAT test, RPII course or inflatable repair. Phone, email or use the contact form.
 eleventyNavigation:
   key: Contact
-  order: 11
+  order: 9
 blocks:
   - type: hero
     badge: Talk to Dave

@@ -5,7 +5,7 @@ meta_title: Inflatable Repairs - Anchors, Stitching, Zips, Tubes | PIPA Testing
 meta_description: Full repair workshop for inflatables run by Dave Morris - new anchors, wall ties, bed re-stitches, inflation tube extensions and zip repairs. Many repairs done on-site.
 eleventyNavigation:
   key: Inflatable Repairs
-  order: 9
+  order: 7
 blocks:
   - type: hero
     badge: On-site &amp; workshop repairs

@@ -5,7 +5,7 @@ meta_title: Inflatable Anchor Stakes, Barrier Fencing & Repair Kits | PIPA Testi
 meta_description: Compliant 16mm anchor stakes, orange barrier fencing and bouncy castle repair kits available from Dave Morris. Phone or email to order.
 eleventyNavigation:
   key: Equipment Sales
-  order: 10
+  order: 8
 blocks:
   - type: hero
     badge: All prices + VAT
