@@ -1,17 +1,24 @@
 {
 	"language": "en-GB",
 	"organization": {
-		"description": "PIPA tests, BS EN 14960:2013 standard tests, PAT testing and repairs for inflatable play equipment.",
-		"legalName": "PIPA Testing",
+		"description": "PIPA inspections, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and inflatable repairs by Dave Morris (RPII-accredited inspector). Based near Portsmouth and Guildford, covering Hampshire, Surrey, Sussex and across the UK.",
+		"legalName": "Monster Event Hire",
+		"founders": [
+			{
+				"name": "David Morris"
+			}
+		],
 		"contactPoint": [
 			{
-				"telephone": "+44-2392-717925",
+				"name": "Dave Morris (mobile)",
+				"telephone": "+44-7990-520545",
 				"contactType": "customer service",
 				"areaServed": "GB",
 				"availableLanguage": ["English"]
 			},
 			{
-				"telephone": "+44-7990-520545",
+				"name": "Office",
+				"telephone": "+44-1428-751925",
 				"contactType": "customer service",
 				"areaServed": "GB",
 				"availableLanguage": ["English"]

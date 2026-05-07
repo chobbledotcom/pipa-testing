@@ -2,15 +2,15 @@
 permalink: /pat-testing/
 layout: design-system-base.html
 meta_title: PAT Testing for Fans & Electrical Equipment | PIPA Testing
-meta_description: Portable Appliance Testing for inflatable blowers, extension leads and other electrical equipment. Discounted rates when combined with a PIPA or standard test.
+meta_description: Portable Appliance Testing for inflatable blowers, extension leads and other electrical equipment, by Dave Morris (RPII-accredited). Discounted rates when combined with a PIPA or standard test.
 eleventyNavigation:
   key: PAT Testing
-  order: 7
+  order: 8
 blocks:
   - type: hero
     badge: Combine with PIPA or standard test
     title: PAT testing
-    lead: Portable Appliance Testing for inflatable blowers, extension leads and other electrical equipment.
+    lead: Portable Appliance Testing for inflatable blowers, extension leads and other electrical equipment, carried out personally by Dave.
     buttons:
       - text: Book a PAT test
         href: /contact/
@@ -29,10 +29,10 @@ blocks:
     variant: info
     icon: mdi:lightbulb-on
     title: Combine with your PIPA or standard test
-    content: PAT testing on the same visit keeps costs down. Extension leads can be tested at the same time as your fan or inflatable for an extra **&pound;2.50 + VAT** per reel.
+    content: PAT testing on the same visit keeps costs down. While Dave is on-site for an inflatable inspection he can run through your fans, blowers and extension leads in the same trip &mdash; just **&pound;2.50 + VAT** per extension reel.
   - type: cta
     title: Book your PAT test
-    description: Phone **07990 520545** or contact us to arrange a PAT test.
+    description: Call Dave on **07990 520545** or the office on **01428 751925** to book in.
     button:
       text: Contact us
       href: /contact/

@@ -2,15 +2,15 @@
 permalink: /pricing/
 layout: design-system-base.html
 meta_title: Pricing for PIPA & Standard Tests | PIPA Testing
-meta_description: Full PIPA and standard test pricing, fan and PAT testing rates, multiple-test bookings and re-test charges.
+meta_description: Full PIPA and standard test pricing, fan and PAT testing rates, multiple-test bookings and re-test charges. Inspections by RPII-accredited inspector Dave Morris.
 eleventyNavigation:
   key: Pricing
-  order: 5
+  order: 7
 blocks:
   - type: hero
     badge: All prices + VAT
     title: Pricing
-    lead: Transparent, fixed pricing for PIPA tests, standard tests, fan tests and PAT testing.
+    lead: Transparent, fixed pricing for PIPA tests, standard tests, fan tests and PAT testing &mdash; carried out personally by Dave.
     buttons:
       - text: Get a quote
         href: /contact/
@@ -19,7 +19,7 @@ blocks:
     intro: |
       ## Test / inspection
 
-      We have our own nationally qualified PIPA inspector and member of the **RPII**. Your inflatables will be tested to the latest safety standard, **BS EN 14960:2006**, and we'll issue you with a safety certificate and PIPA tag on **passing the inspection**.
+      Dave is a nationally qualified PIPA inspector and member of the **RPII**. Your inflatables are tested to **BS EN 14960:2019**, with a safety certificate and PIPA tag issued on **passing the inspection**.
   - type: split-full
     variant: primary-left
     left_title: Without a PIPA tag
@@ -60,21 +60,23 @@ blocks:
   - type: callout
     variant: info
     icon: mdi:truck-fast
-    title: We come to you
-    content: We can come to your premises (a travelling charge will be applied) or you can bring your goods to us. **For 15+ units** you can book us for the day at an agreed price.
+    title: Dave comes to you
+    content: Dave can come to your premises (a travelling charge will be applied) or you can bring your goods to the **Havant base**. **For 15+ units** you can book him for the day at an agreed price.
   - type: split-callout
-    title: Test failures
+    title: Test failures &amp; missed slots
     content: |
-      If required works are carried out by ourselves, a charge of **&pound;15.00 + VAT** is payable for re-test on failed parts only.
+      If required works are carried out by Dave, a charge of **&pound;15.00 + VAT** is payable for re-test on failed parts only.
 
       On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs will apply, within a 14-day period &mdash; or full test charge applies.
+
+      **Missed appointments** are charged at the full test rate.
     figure_icon: mdi:alert-octagon
     figure_title: Re-test charges
     figure_subtitle: Failed parts only &mdash; within 14 days
     figure_variant: secondary
   - type: cta
     title: Book a test today
-    description: Phone **02392 717925** or **07990 520545** to arrange an inspection.
+    description: Phone Dave on **07990 520545** or the office on **01428 751925**.
     button:
       text: Contact us
       href: /contact/

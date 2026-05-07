@@ -1,32 +1,47 @@
 ---
 permalink: /contact/
 layout: design-system-base.html
-meta_title: Contact PIPA Testing
-meta_description: Get in touch to book a PIPA test, standard test, PAT test or inflatable repair. Phone, email or use the contact form.
+meta_title: Contact Dave Morris | PIPA Testing
+meta_description: Get in touch with Dave Morris (RPII inspector) to book a PIPA test, standard test, PAT test, RPII course or inflatable repair. Phone, email or use the contact form.
 eleventyNavigation:
   key: Contact
-  order: 9
+  order: 11
 blocks:
   - type: hero
-    badge: We look forward to hearing from you
+    badge: Talk to Dave
     title: Contact us
-    lead: Get in touch about inspections, repairs and equipment sales.
+    lead: Book your PIPA test, standard test, PAT test, RPII course or inflatable repair &mdash; or order equipment.
   - type: icon-links
     intro_content: |
-      ## Phone or email
+      ## Phone or email Dave
     items:
       - icon: mdi:cellphone
-        text: 07990 520545
+        text: Call Dave &mdash; 07990 520545
         url: tel:+447990520545
       - icon: mdi:phone-classic
-        text: 02392 717925
-        url: tel:+442392717925
+        text: Office &mdash; 01428 751925
+        url: tel:+441428751925
       - icon: mdi:email
         text: pipatesting@gmail.com
         url: mailto:pipatesting@gmail.com
+  - type: split-callout
+    title: Where Dave covers
+    content: |
+      Based near **Portsmouth (Havant, Hampshire)** with an additional office near **Guildford**, Dave covers Hampshire, Surrey, Sussex and the rest of the south of England, and travels right across the UK &mdash; including a regular client base in Wales.
+
+      Schools, leisure centres and **MOD sites** are all welcome. Inspections can be carried out on-site at your venue or at the Havant base.
+    figure_icon: mdi:map-marker-radius
+    figure_title: South of England + UK travel
+    figure_subtitle: Hampshire &middot; Surrey &middot; Sussex &middot; Wales
+    figure_variant: primary
+  - type: callout
+    variant: warning
+    icon: mdi:calendar-alert
+    title: Missed appointments
+    content: Full payment applies for missed appointments or unused booked slots, so please let Dave know as early as possible if you need to reschedule.
   - type: contact-form
     content: |
-      ## Send us a message
+      ## Send Dave a message
 
-      Fill in the form and we'll get back to you as soon as we can. Thank you for visiting our website!
+      Fill in the form and Dave will get back to you as soon as he can. Thank you for visiting!
 ---

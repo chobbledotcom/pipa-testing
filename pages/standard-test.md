@@ -1,16 +1,16 @@
 ---
 permalink: /standard-test/
 layout: design-system-base.html
-meta_title: Standard Inflatable Test BS EN 14960:2013 | PIPA Testing
-meta_description: Annual inspections for inflatables to BS EN 14960:2013 by a nationally qualified RPII inspector. Mobile service available across the UK.
+meta_title: Standard Inflatable Test BS EN 14960:2019 | PIPA Testing
+meta_description: Annual inspections for inflatables to BS EN 14960:2019 by Dave Morris, an RPII-accredited inspector. Mobile service across Hampshire, Surrey, Sussex and the UK.
 eleventyNavigation:
   key: Standard Test
-  order: 3
+  order: 5
 blocks:
   - type: hero
-    badge: BS EN 14960:2013
+    badge: BS EN 14960:2019
     title: Standard test
-    lead: Annual inspections for inflatables to the latest safety standard, by a nationally qualified RPII inspector.
+    lead: Annual inspections for non-PIPA inflatables to the latest European safety standard, by Dave Morris &mdash; an RPII-accredited inspector.
     buttons:
       - text: Book a test
         href: /contact/
@@ -19,9 +19,9 @@ blocks:
     intro: |
       ## Test / inspection
 
-      We have our own nationally qualified inspector and member of the **RPII**. Your inflatables will be tested to the latest safety standards, **BS EN 14960:2013**.
+      Dave is a nationally qualified inspector and member of the **RPII**. Your inflatables will be tested to **BS EN 14960:2019**, with a safety certificate issued on **passing the inspection**. Electrical items can be PAT tested at the same time.
 
-      We will inspect your inflatable and issue you with a safety certificate on **passing the inspection**. Electrical items can also be PAT tested.
+      Standard tests cover non-PIPA inflatables that still have to meet EN 14960 &mdash; for example human table footballs, bungee runs, eliminators, ball pools, rodeo bulls, surf simulators, boxing rings and gladiator duels.
   - type: features
     intro_content: |
       ## Pricing at a glance
@@ -44,14 +44,16 @@ blocks:
   - type: callout
     variant: info
     icon: mdi:truck-fast
-    title: We come to you
-    content: We can come to your premises (a travelling charge will be applied) or you can bring your goods to us. **For 15+ units** you can book us for the day at an agreed price.
+    title: Dave comes to you
+    content: We can come to your premises (a travelling charge will be applied) or you can bring your goods to the **Havant base in Hampshire**. **For 15+ units** you can book Dave for the day at an agreed price.
   - type: split-callout
-    title: Test failures
+    title: Test failures &amp; missed slots
     content: |
-      If required works are carried out by ourselves, a charge of **&pound;15.00 + VAT** is payable for re-test on failed parts only.
+      If required works are carried out by Dave, a charge of **&pound;15.00 + VAT** is payable for re-test on failed parts only.
 
-      On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs to the destination of the failed unit will be charged, within a 14-day period &mdash; or full test charge will apply.
+      On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs will apply, within a 14-day period &mdash; or full test charge applies.
+
+      **Missed appointments** are charged at the full test rate, so please give as much notice as possible if you need to reschedule.
     figure_icon: mdi:alert-octagon
     figure_title: Re-test charges
     figure_subtitle: Failed parts only &mdash; within 14 days
@@ -87,7 +89,7 @@ blocks:
         text: Fire-retardant thread and material
   - type: cta
     title: Book your standard test
-    description: Phone **02392 717925** or **07990 520545** to arrange an inspection.
+    description: Phone Dave on **07990 520545** or the office on **01428 751925**.
     button:
       text: Contact us
       href: /contact/

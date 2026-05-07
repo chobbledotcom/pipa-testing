@@ -1,0 +1,101 @@
+---
+permalink: /about/
+layout: design-system-base.html
+meta_title: About Dave Morris - RPII Inspector | PIPA Testing
+meta_description: Meet David (Dave) Morris, the RPII-accredited PIPA inspector behind Monster Event Hire. Inflatable inspections, repairs and RPII courses across Hampshire, Surrey, Sussex and the UK.
+eleventyNavigation:
+  key: About Dave
+  order: 2
+blocks:
+  - type: hero
+    badge: Meet your inspector
+    title: David "Dave" Morris
+    lead: RPII-accredited PIPA inspector. Inflatable testing, repairs and RPII operator courses across Hampshire, Surrey, Sussex and the wider UK.
+    buttons:
+      - text: Call Dave
+        href: tel:+447990520545
+        variant: primary
+      - text: Send a message
+        href: /contact/
+        variant: secondary
+  - type: split-callout
+    title: A name and a number, not a call centre
+    content: |
+      When you book an inspection with us, **Dave personally turns up to do the work**. No subcontractors, no handoffs &mdash; one accredited inspector with the experience to do the job properly.
+
+      Dave operates as part of **Monster Event Hire**, an accredited RPII and PIPA inspection body. He's tested everything from bouncy castles and slides through to obstacle courses, bouncing pillows, bungee runs and rodeo bulls.
+    figure_icon: mdi:account-tie
+    figure_title: One inspector, one number
+    figure_subtitle: "Direct line: 07990 520545"
+    figure_variant: primary
+  - type: features
+    intro_content: |
+      ## Accreditations &amp; standards
+    items:
+      - icon: mdi:shield-check
+        title: RPII accredited
+        description: Member of the Register of Play Inspectors International &mdash; the recognised UK body for play-equipment inspectors.
+      - icon: mdi:tag-check
+        title: PIPA inspection body
+        description: Authorised to issue and renew PIPA tags under the industry-and-HSE-backed PIPA scheme.
+      - icon: mdi:certificate
+        title: BS EN 14960:2019
+        description: Inspections to the current European safety standard for inflatable play equipment.
+      - icon: mdi:school
+        title: RPII course trainer
+        description: Delivers RPII Operating &amp; Attendant courses for hire-company staff.
+      - icon: mdi:flash
+        title: PAT testing
+        description: Portable Appliance Testing for fans, blowers and extension leads.
+      - icon: mdi:tools
+        title: Repair workshop
+        description: On-site and workshop repairs for splits, anchors, beds, tubes and zips.
+  - type: section-header
+    intro: |
+      ## What Dave inspects
+
+      From standard bouncy castles right through to specialist non-PIPA inflatables, Dave issues tags and certificates across the full range.
+  - type: features
+    items:
+      - icon: mdi:castle
+        title: Bouncy castles &amp; slides
+        description: Annual PIPA tests and BS EN 14960:2019 inspections for the everyday hire fleet.
+      - icon: mdi:run
+        title: Obstacle courses &amp; fun runs
+        description: Larger walk-through and run-through inflatables.
+      - icon: mdi:weather-sunny
+        title: Bouncing pillows
+        description: Inspected to **BS EN 14960-2:2019**.
+      - icon: mdi:rocket-launch
+        title: Bungee runs
+        description: Inspected to the **BS EN 14960-4:2025** standard for minimum height, max weight and user safety.
+      - icon: mdi:basketball
+        title: Non-ride-on games
+        description: Football shootouts, axe-throwing inflatables, basketball hoops, archery ranges &mdash; PIPA tags issued.
+      - icon: mdi:cow
+        title: Rodeo bulls &amp; surf simulators
+        description: Plus boxing rings, gladiator duels, ball pools, table-football inflatables and more.
+  - type: split-callout
+    title: Coverage
+    content: |
+      Based near **Portsmouth (Havant, Hampshire)** with an additional office near **Guildford**, Dave covers Hampshire, Surrey, Sussex and the rest of the south of England, and travels right across the UK &mdash; including a regular client base in Wales.
+
+      Schools, leisure centres and **MOD sites** are all welcome. Inspections can be carried out on-site at your venue or at the Havant base.
+    figure_icon: mdi:map-marker-radius
+    figure_title: South of England + UK travel
+    figure_subtitle: Hampshire &middot; Surrey &middot; Sussex &middot; Wales
+    figure_variant: secondary
+  - type: callout
+    variant: warning
+    icon: mdi:calendar-alert
+    title: Missed appointments
+    content: Full payment applies for missed appointments or unused booked slots, so please let Dave know as early as possible if you need to reschedule.
+  - type: cta
+    title: Book Dave for your next inspection
+    description: Call **07990 520545** direct, the office on **01428 751925**, or send a message and Dave will get back to you.
+    button:
+      text: Contact us
+      href: /contact/
+      variant: secondary
+      size: lg
+---

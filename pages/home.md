@@ -1,24 +1,24 @@
 ---
 permalink: "/"
 layout: design-system-base.html
-meta_title: PIPA Testing - Inflatable Inspections, PAT Testing & Repairs
-meta_description: PIPA tests and BS EN 14960:2013 standard tests for all inflatables, plus PAT testing and inflatable repairs. Mobile service available across the UK.
+meta_title: PIPA Testing - Inflatable Inspections, RPII Courses & Repairs
+meta_description: Inflatable inspections, PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs by Dave Morris (RPII-accredited). Hampshire, Surrey, Sussex and across the UK.
 eleventyNavigation:
   key: Home
   order: 1
 blocks:
   - type: hero
     class: gradient
-    badge: RPII qualified inspector
-    title: PIPA Testing
-    lead: PIPA tests, BS EN 14960:2013 standard tests, PAT testing and repairs for inflatable play equipment.
+    badge: RPII-accredited PIPA inspector
+    title: Inflatable inspections by Dave Morris
+    lead: PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs &mdash; for bouncy castles, slides, obstacle courses, bouncing pillows and more.
     buttons:
-      - text: Get a quote
-        href: /contact/
+      - text: Call Dave
+        href: tel:+447990520545
         variant: primary
         size: lg
-      - text: View pricing
-        href: /pricing/
+      - text: Get a quote
+        href: /contact/
         variant: secondary
         size: lg
   - type: callout
@@ -30,57 +30,65 @@ blocks:
     intro: |
       ## Everything you need to keep operating
 
-      We carry out PIPA and standard tests to **BS EN 14960:2013** for all inflatables, PAT testing for all your electrical equipment, and full repairs. The current testing standard requires annual inspections — we can do all of this for you in one visit.
+      Dave is an accredited **RPII** and **PIPA** inspector, operating as part of **Monster Event Hire**. He carries out inflatable inspections, PAT tests, repairs and RPII operator courses &mdash; on-site at your venue or at the Havant base.
+
+      All inflatable play equipment is tested to **BS EN 14960:2019**, with PIPA tags and certificates issued on passing the inspection.
   - type: features
     items:
       - icon: mdi:shield-check
         title: PIPA testing
-        description: Full PIPA tests carried out by a nationally qualified RPII inspector.
+        description: Full PIPA tests carried out personally by Dave, an accredited RPII inspector.
       - icon: mdi:certificate
         title: Standard test
-        description: Annual inspections to the latest BS EN 14960:2013 standard.
+        description: Annual inspections to **BS EN 14960:2019** for non-PIPA inflatables.
+      - icon: mdi:school
+        title: RPII courses
+        description: Operating &amp; Attendant courses &mdash; 3-year RPII registration on completion.
       - icon: mdi:flash
         title: PAT testing
-        description: Portable Appliance Testing for fans, leads and other electrical equipment.
+        description: Portable Appliance Testing for fans, blowers and extension leads.
       - icon: mdi:tools
-        title: Repairs
+        title: On-site repairs
         description: Anchors, wall ties, bed re-stitches, tube extensions, zip repairs and more.
-      - icon: mdi:truck
-        title: Mobile service
-        description: We come to your premises, or you can bring your equipment to us.
       - icon: mdi:cart
         title: Equipment sales
-        description: Compliant anchor stakes, barrier fencing and repair kits.
+        description: Compliant 16mm anchor stakes, barrier fencing and repair kits.
   - type: split-image
-    title: Backed by the PIPA scheme
-    subtitle: Designed in partnership with the HSE
+    title: One inspector, one number
+    subtitle: Meet Dave Morris
     content: |
-      The PIPA scheme is supported by the whole industry and was developed in partnership with the **Health and Safety Executive**. A PIPA tag means your equipment has been:
+      When you book an inspection with us, **Dave personally turns up to do the work**. No subcontractors, no handoffs &mdash; one accredited inspector with the experience to do the job properly.
 
-      - Designed to a recognised safety standard
-      - Tested by a nationally qualified inspector
-      - Approved for commercial hire and use
-
-      Find out more at [www.pipa.org.uk](http://www.pipa.org.uk).
+      Dave inspects bouncy castles, slides, obstacle courses, fun runs, bouncing pillows, bungee runs, rodeo bulls, surf simulators, ball pools and more.
     button:
-      text: Read about safety
-      href: /safety/
+      text: About Dave
+      href: /about/
       variant: secondary
     figure_src: /images/pipalogo.jpg
     figure_alt: PIPA scheme logo
+  - type: split-callout
+    title: Coverage
+    content: |
+      Based near **Portsmouth (Havant, Hampshire)** with an additional office near **Guildford**, Dave covers Hampshire, Surrey, Sussex and the wider south of England, and travels right across the UK &mdash; including a regular client base in Wales.
+
+      Schools, leisure centres and **MOD sites** are all welcome.
+    figure_icon: mdi:map-marker-radius
+    figure_title: South of England + UK travel
+    figure_subtitle: Hampshire &middot; Surrey &middot; Sussex &middot; Wales
+    figure_variant: primary
   - type: stats
     items:
       - value: BS EN
-        label: 14960:2013 compliant
+        label: 14960:2019 compliant
       - value: RPII
-        label: Qualified inspector
+        label: Accredited inspector
       - value: PAT
         label: Electrical testing
       - value: UK
         label: Mobile coverage
   - type: cta
-    title: Ready to book a test?
-    description: Call **02392 717925** or **07990 520545**, or send a message and we'll be in touch.
+    title: Book Dave for your next inspection
+    description: Call **07990 520545** direct, the office on **01428 751925**, or send a message and we'll be in touch.
     button:
       text: Contact us
       href: /contact/
