@@ -1,6 +1,7 @@
 ---
 permalink: /safety/
 layout: design-system-base.html
+name: Safety
 meta_title: Inflatable Safety & the PIPA Scheme | PIPA Testing
 meta_description: Why every bouncy castle and inflatable should carry a current PIPA tag, and what the PIPA scheme delivers for operators and the public. Inspections by RPII-accredited inspector Dave Morris.
 eleventyNavigation:
@@ -9,12 +10,12 @@ eleventyNavigation:
 blocks:
   - type: hero
     badge: Industry safety standard
-    title: Inflatable safety
+    name: Inflatable safety
     lead: Tagging and testing for bouncy castles and other inflatable play equipment, by an RPII-accredited inspector.
   - type: callout
     variant: warning
     icon: mdi:alert
-    title: Use kit with a current PIPA certificate
+    name: Use kit with a current PIPA certificate
     content: All inflatable play equipment within the scope of PIPA should carry a current PIPA tag and be listed in the database. Inflatables that fall outside the PIPA scheme can still be tested to BS EN 14960:2019, with a certificate issued the same way.
   - type: section-header
     intro: |
@@ -26,13 +27,13 @@ blocks:
   - type: features
     items:
       - icon: mdi:clipboard-check
-        title: Recognised standard
+        name: Recognised standard
         description: Designed to a recognised standard based on safety.
       - icon: mdi:account-tie
-        title: Qualified inspector
+        name: Qualified inspector
         description: Tested by Dave, a nationally qualified RPII inspector.
       - icon: mdi:office-building
-        title: Approved for commercial use
+        name: Approved for commercial use
         description: Equipment approved for commercial hire and use.
   - type: section-header
     intro: |
@@ -40,23 +41,24 @@ blocks:
   - type: features
     items:
       - icon: mdi:account-child
-        title: Improved safety
+        name: Improved safety
         description: Improved safety for your children.
       - icon: mdi:shield-star
-        title: HSE-recognised practice
+        name: HSE-recognised practice
         description: HSE-recognised best practice for the inflatable industry.
       - icon: mdi:check-decagram
-        title: Quality assurance
+        name: Quality assurance
         description: Independent quality assurance you can rely on.
       - icon: mdi:certificate-outline
-        title: Certified initial test
+        name: Certified initial test
         description: Every unit gets a certified initial inspection.
       - icon: mdi:calendar-check
-        title: Certified annual testing
+        name: Certified annual testing
         description: Ongoing certified annual testing keeps you compliant.
   - type: split-callout
-    title: Supported across the industry
     content: |
+      ## Supported across the industry
+
       The PIPA scheme has the support of:
 
       - All the inflatable industry associations
@@ -65,12 +67,14 @@ blocks:
 
       That's why a PIPA tag is the recognised way to show your kit is fit for hire.
     figure_icon: mdi:shield-check
-    figure_title: Industry-backed
+    figure_name: Industry-backed
     figure_subtitle: HSE, associations &amp; local authorities
     figure_variant: primary
   - type: cta
-    title: Get your inflatables PIPA tested
-    description: Book a PIPA test or annual inspection with Dave, an RPII-accredited inspector.
+    content: |
+      ## Get your inflatables PIPA tested
+
+      Book a PIPA test or annual inspection with Dave, an RPII-accredited inspector.
     button:
       text: View PIPA testing
       href: /pipa-testing/

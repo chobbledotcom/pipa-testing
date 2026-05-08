@@ -1,6 +1,7 @@
 ---
 permalink: /equipment-sales/
 layout: design-system-base.html
+name: Equipment Sales
 meta_title: Inflatable Anchor Stakes, Barrier Fencing & Repair Kits | PIPA Testing
 meta_description: Compliant 16mm anchor stakes, orange barrier fencing and bouncy castle repair kits available from Dave Morris. Phone or email to order.
 eleventyNavigation:
@@ -9,7 +10,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     badge: All prices + VAT
-    title: Equipment sales
+    name: Equipment sales
     lead: Compliant anchor stakes, barrier fencing and bouncy castle repair kits, the bits and pieces you need to keep your kit in good order between inspections.
     buttons:
       - text: Order from Dave
@@ -24,14 +25,14 @@ blocks:
     image_aspect_ratio: 4/3
     items:
       - image: /images/18mmgroundstake.jpg
-        title: Compliant anchor stakes
+        name: Compliant anchor stakes
         description: |
           16mm dia rebar &times; 380mm o/a. Fully sharpened and deburred. Yellow zinc passivate finish.
 
           **&pound;3.50 each + VAT**
         link: /contact/
       - image: /images/orangefencing.jpg
-        title: Barrier fencing
+        name: Barrier fencing
         description: |
           50 metre rolls at **&pound;26.00 + VAT** per roll.
 
@@ -40,11 +41,13 @@ blocks:
   - type: callout
     variant: info
     icon: mdi:tools
-    title: Bouncy castle repair kit
+    name: Bouncy castle repair kit
     content: Fabric and glue, **&pound;20.00 + VAT**. Phone or email Dave to order.
   - type: cta
-    title: Place an order
-    description: Call Dave on **07990 520545**, the office on **01428 751925**, or send a message.
+    content: |
+      ## Place an order
+
+      Call Dave on **07990 520545**, the office on **01428 751925**, or send a message.
     button:
       text: Contact us
       href: /contact/

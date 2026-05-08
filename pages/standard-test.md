@@ -1,6 +1,7 @@
 ---
 permalink: /standard-test/
 layout: design-system-base.html
+name: Standard Test
 meta_title: Standard Inflatable Test BS EN 14960:2019 | PIPA Testing
 meta_description: Annual inspections for inflatables to BS EN 14960:2019 by Dave Morris, an RPII-accredited inspector. Mobile service across Hampshire, Surrey, Sussex and the UK.
 eleventyNavigation:
@@ -9,7 +10,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     badge: BS EN 14960:2019
-    title: Standard test
+    name: Standard test
     lead: Annual inspections for non-PIPA inflatables to the latest European safety standard, by Dave Morris, an RPII-accredited inspector.
     buttons:
       - text: Book a test
@@ -27,41 +28,42 @@ blocks:
       ## Pricing at a glance
     items:
       - icon: mdi:cash-multiple
-        title: Day rate
+        name: Day rate
         description: "**&pound;750.00 + VAT** per day, covering roughly **25 units**."
       - icon: mdi:fan
-        title: Blower PAT test
+        name: Blower PAT test
         description: Included in the day rate.
       - icon: mdi:tag
-        title: PIPA tag
+        name: PIPA tag
         description: Free of charge on passing inspection.
       - icon: mdi:file-certificate
-        title: Test certificate
+        name: Test certificate
         description: "**&pound;18.00** each, charged on top of the day rate."
       - icon: mdi:power-plug
-        title: Extension lead PAT
+        name: Extension lead PAT
         description: "**&pound;2.50 + VAT** per reel, when tested at the same time."
       - icon: mdi:truck
-        title: Travel &amp; accommodation
+        name: Travel &amp; accommodation
         description: Charged separately at cost, depending on the venue.
       - icon: mdi:needle
-        title: On-site repairs
+        name: On-site repairs
         description: Dave's handy with a sewing machine and can take on most repairs at the same visit. Repair work is charged on top of the day rate.
   - type: callout
     variant: info
     icon: mdi:truck-fast
-    title: Dave comes to you
+    name: Dave comes to you
     content: Dave can come to your premises or you can bring goods to the **Havant base in Hampshire**. Travel and any overnight accommodation are charged on top of the day rate at cost.
   - type: split-callout
-    title: Test failures &amp; missed slots
     content: |
+      ## Test failures &amp; missed slots
+
       If required works are carried out by Dave, a charge of **&pound;15.00 + VAT** is payable for re-test on failed parts only.
 
       On re-tests where work has been carried out by another party, a charge of **&pound;30.00 + VAT** plus travel costs will apply, within a 14-day period. Outside that window the full test charge applies.
 
       **Missed appointments** are charged at the full test rate, so please give as much notice as possible if you need to reschedule.
     figure_icon: mdi:alert-octagon
-    figure_title: Re-test charges
+    figure_name: Re-test charges
     figure_subtitle: Failed parts only, within 14 days
     figure_variant: secondary
   - type: section-header
@@ -94,8 +96,10 @@ blocks:
       - icon: mdi:check
         text: Fire-retardant thread and material
   - type: cta
-    title: Book your standard test
-    description: Phone Dave on **07990 520545** or the office on **01428 751925**.
+    content: |
+      ## Book your standard test
+
+      Phone Dave on **07990 520545** or the office on **01428 751925**.
     button:
       text: Contact us
       href: /contact/
