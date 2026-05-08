@@ -26,26 +26,29 @@ blocks:
     intro_content: |
       ## Pricing at a glance
     items:
-      - icon: mdi:clipboard-text
-        title: Annual inspection
-        description: From **&pound;40.00**, depending on inflatable size.
+      - icon: mdi:cash-multiple
+        title: Day rate
+        description: "**&pound;750.00 + VAT** per day, covering roughly **25 units**."
+      - icon: mdi:fan
+        title: Blower PAT test
+        description: Included in the day rate.
+      - icon: mdi:tag
+        title: PIPA tag
+        description: Free of charge on passing inspection.
       - icon: mdi:file-certificate
         title: Test certificate
-        description: "**&pound;10.00**"
-      - icon: mdi:cash-multiple
-        title: Total
-        description: "**&pound;50.00 + VAT**"
-      - icon: mdi:fan
-        title: Full fan test (incl. PAT)
-        description: "**&pound;7.50 + VAT**"
+        description: "**&pound;18.00** each, charged on top of the day rate."
       - icon: mdi:power-plug
         title: Extension lead PAT
         description: "**&pound;2.50 + VAT** per reel, when tested at the same time."
+      - icon: mdi:truck
+        title: Travel &amp; accommodation
+        description: Charged separately at cost, depending on the venue.
   - type: callout
     variant: info
     icon: mdi:truck-fast
     title: Dave comes to you
-    content: We can come to your premises (a travelling charge will be applied) or you can bring your goods to the **Havant base in Hampshire**. **For 15+ units** you can book Dave for the day at an agreed price.
+    content: Dave can come to your premises or you can bring goods to the **Havant base in Hampshire**. Travel and any overnight accommodation are charged on top of the day rate at cost.
   - type: split-callout
     title: Test failures &amp; missed slots
     content: |

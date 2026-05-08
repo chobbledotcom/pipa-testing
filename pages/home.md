@@ -24,8 +24,8 @@ blocks:
   - type: callout
     variant: success
     icon: mdi:tag
-    title: Winter offer
-    content: All inspections from **January to March** are just **&pound;40 + VAT**.
+    title: Day rate
+    content: Inflatable testing is **&pound;750 + VAT per day**, covering around **25 units**. Blower PAT and PIPA tags included; certificates, travel and accommodation charged separately.
   - type: section-header
     intro: |
       ## What we do

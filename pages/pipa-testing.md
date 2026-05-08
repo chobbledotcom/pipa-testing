@@ -27,33 +27,32 @@ blocks:
       Electrical items can be PAT tested at the same time, and minor repairs can often be carried out on-site so the inflatable doesn't have to come back for a re-test.
   - type: split-full
     variant: primary-left
-    left_title: Without a PIPA tag
+    left_title: Day rate
     left_content: |
-      Full PIPA test for an inflatable that does **not** already have a PIPA tag.
+      Dave works on a **day rate** for inflatable testing. He can typically inspect around **25 units in a day**, whether they're brand-new or already on the PIPA scheme.
 
       | Item | Price |
       |---|---|
-      | Initial test | from **&pound;40.00** (depends on size) |
-      | Tag | **&pound;8.00** |
-      | Test certificate | **&pound;18.00** |
-
-      ### Total: &pound;66.00 + VAT
+      | Day rate | **&pound;750.00 + VAT** |
+      | Approx. units per day | **25** |
+      | Blower PAT test | **included** |
+      | PIPA tag | **free** |
     left_button:
-      text: Book initial test
+      text: Book Dave for the day
       href: /contact/
-    right_title: Already with a tag
+    right_title: Charged separately
     right_content: |
-      Full PIPA test for an inflatable that **already has** a PIPA tag.
+      A few items sit **outside the day rate** and are quoted on top:
 
       | Item | Price |
       |---|---|
-      | Annual test | from **&pound;40.00** (depends on size) |
-      | Tag | not required |
-      | Test certificate | **&pound;18.00** |
+      | Test certificate | **&pound;18.00** each |
+      | Travel | **extra** |
+      | Accommodation | **extra** (overnight jobs) |
 
-      ### Total: &pound;58.00 + VAT
+      Travel and accommodation are charged at cost, depending on the venue and how far Dave is from his Havant base.
     right_button:
-      text: Book annual test
+      text: Get a quote
       href: /contact/
   - type: features
     intro_content: |
@@ -84,17 +83,17 @@ blocks:
       ## Other testing &amp; logistics
     items:
       - icon: mdi:fan
-        title: Full fan test (incl. PAT)
-        description: "**&pound;7.50 + VAT**"
+        title: Blower PAT test
+        description: Included in the day rate.
       - icon: mdi:power-plug
         title: Extension lead PAT
         description: "**&pound;2.50 + VAT** per reel, when tested at the same time."
       - icon: mdi:truck
         title: Mobile service
-        description: Dave comes to you, or you bring goods to the Havant base. Travel charge may apply.
-      - icon: mdi:calendar-check
-        title: Multiple tests
-        description: Book Dave for the day at an agreed price for 15+ units.
+        description: Dave comes to you, or you bring goods to the Havant base. Travel is charged separately on top of the day rate.
+      - icon: mdi:bed
+        title: Overnight stays
+        description: For jobs that need an overnight, accommodation is charged separately at cost.
   - type: split-callout
     title: Test failures &amp; re-tests
     content: |
