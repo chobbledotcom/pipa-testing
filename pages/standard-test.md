@@ -44,6 +44,9 @@ blocks:
       - icon: mdi:truck
         title: Travel &amp; accommodation
         description: Charged separately at cost, depending on the venue.
+      - icon: mdi:needle
+        title: On-site repairs
+        description: Dave's handy with a sewing machine and can take on most repairs at the same visit. Repair work is charged on top of the day rate.
   - type: callout
     variant: info
     icon: mdi:truck-fast

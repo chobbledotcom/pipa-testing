@@ -94,6 +94,9 @@ blocks:
       - icon: mdi:bed
         title: Overnight stays
         description: For jobs that need an overnight, accommodation is charged separately at cost.
+      - icon: mdi:needle
+        title: On-site repairs
+        description: Dave's handy with a sewing machine and can take on most inflatable repairs. Repair work is charged separately, on top of the day rate. [More on repairs](/inflatable-repairs/).
   - type: split-callout
     title: Test failures &amp; re-tests
     content: |
