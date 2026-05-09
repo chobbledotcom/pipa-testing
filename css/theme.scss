@@ -11,7 +11,7 @@
   --width-content: 1300px;
 
   --color-bg: #faf8f3;
-  --color-card-bg: #fdfcf8;
+  --color-card-bg: rgb(253 252 248 / 78%);
   --color-accent: #f1ede2;
   --color-text: #1f2937;
   --color-link: #b45309;
@@ -45,19 +45,6 @@
 
   --list-marker-content: "▸  ";
   --list-marker-color: #b45309;
-}
-
-// Translucent card surfaces let the blueprint show through subtly.
-header,
-article,
-nav,
-form,
-body > footer,
-.quote-checkout-summary,
-.hire-dates-section {
-  background-color: rgb(253 252 248 / 78%);
-  backdrop-filter: blur(10px) saturate(115%);
-  -webkit-backdrop-filter: blur(10px) saturate(115%);
 }
 
 // A bit more structure on headings.
