@@ -7,7 +7,9 @@
 
 @font-face {
   font-family: "Astoria";
-  src: url("/assets/fonts/AstoriaRoman.ttf") format("truetype");
+  src:
+    url("/assets/fonts/AstoriaRoman.woff2") format("woff2"),
+    url("/assets/fonts/AstoriaRoman.woff") format("woff");
   font-weight: 400 700;
   font-style: normal;
   font-display: swap;
@@ -129,9 +131,32 @@ body::before {
   );
 }
 
+// Nav bar layout — turn the wrapper into a single flex row so the
+// brand lockup sits left and the menu sits right on the same line.
+// The horizontal-nav mixin only sets justify-content; <nav> stays
+// display: block by default, which is why the logo would otherwise
+// wrap above the menu.
+@media (min-width: 768px) {
+  .design-system.horizontal-nav nav {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 1.5rem;
+
+    > ul {
+      flex: 0 1 auto;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}
+
 // Logo lockup in the nav bar
 .nav-logo {
   display: inline-flex;
+  flex: 0 0 auto;
   align-items: center;
   gap: 0.7rem;
   text-decoration: none !important;
@@ -142,9 +167,25 @@ body::before {
   white-space: nowrap;
   line-height: 1;
 
+  // Eleventy-img wraps logo images in <div class="image-wrapper"><picture>...
+  // so we constrain the wrapper, not the <img> directly.
+  .image-wrapper,
   img {
     display: block;
-    height: 40px;
+    width: auto !important;
+    height: 44px !important;
+    max-width: none !important;
+    aspect-ratio: auto !important;
+    background: none !important;
+  }
+
+  picture {
+    display: block;
+    height: 44px;
+  }
+
+  picture img {
+    height: 100%;
     width: auto;
   }
 
@@ -167,19 +208,6 @@ body::before {
 
   &:hover {
     text-decoration: none !important;
-  }
-}
-
-// Push the logo to the left so the menu can sit on the right.
-@media (min-width: 768px) {
-  .design-system.horizontal-nav nav {
-    justify-content: space-between !important;
-    gap: 1.5rem;
-
-    > ul {
-      flex: 0 1 auto;
-      justify-content: flex-end;
-    }
   }
 }
 
