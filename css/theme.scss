@@ -1,52 +1,58 @@
 @charset "utf-8";
 
 // PIPA Testing — brand theme
-// PIPA-blue primary, safety-orange accent, clean white backgrounds.
-// Inspired by the PIPA scheme logo (deep blue) and on-site safety kit (orange).
+// Brand red lifted straight off the new logo (#eb4b36) on white,
+// charcoal text, AstoriaRoman for headings. Brand-mark watermark
+// drifts behind the body so the page feels owned, not generic.
 
-@import url("https://fonts.bunny.net/css?family=inter:400,500,600,700|space-grotesk:500,600,700&display=swap");
+@font-face {
+  font-family: "Astoria";
+  src: url("/assets/fonts/AstoriaRoman.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("https://fonts.bunny.net/css?family=inter:400,500,600,700&display=swap");
 
 :root {
   --width-content: 1300px;
 
-  // Backgrounds: clean, with the faintest cool tint
-  --color-bg: #f7f9fc;
+  // Backgrounds: warm white over a faint brand-mark watermark.
+  --color-bg: #fbfafa;
   --color-card-bg: #ffffff;
-  --color-accent: #f1f5fb;
-  --color-text: #0f172a;
-  --color-text-muted: #475569;
+  --color-accent: #fdecea;
+  --color-text: #1a1a1a;
+  --color-text-muted: #5a5a5a;
 
-  // Primary: PIPA navy (sampled from the logo, lightly modernised)
-  --color-link: #1e3a8a;
-  --color-link-hover: #2849a8;
-  --color-tint: #dbeafe;
-
-  // Secondary / accent: safety orange — used on the gradient and CTAs
-  --color-secondary: #ea580c;
+  // Primary: brand red (sampled from branding/logo-03.png)
+  --color-link: #eb4b36;
+  --color-link-hover: #c73a26;
+  --color-tint: #fdecea;
+  --color-secondary: #1a1a1a;
 
   --color-contrast-text: #ffffff;
-  --color-contrast-text-muted: rgb(255 255 255 / 82%);
+  --color-contrast-text-muted: rgb(255 255 255 / 85%);
 
-  // Hero gradient: PIPA navy bleeding into safety orange
-  --color-gradient-start: rgb(30 58 138 / 92%);
-  --color-gradient-end: rgb(234 88 12 / 88%);
+  // Hero gradient: deep red into off-black for a confident, branded ribbon.
+  --color-gradient-start: #eb4b36;
+  --color-gradient-end: #2a1a17;
 
-  // Body backdrop: very faint diagonal hatch so the page doesn't feel flat
-  --body-background:
-    #eef2f7
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28'%3E%3Cpath fill='none' stroke='%231e3a8a' stroke-opacity='0.05' stroke-width='1' d='M0 28L28 0M-7 7L7-7M21 35L35 21'/%3E%3C/svg%3E");
-  --body-background-alt: #e8edf4;
+  // Body backdrop: warm off-white with the brand-mark watermark blended
+  // way back so it reads as texture, not pattern.
+  --body-background: #f6f3f1;
+  --body-background-alt: #efeae8;
 
-  --border: 1px solid #d6dde7;
-  --border-radius: 8px;
-  --border-radius-small: 4px;
+  --border: 1px solid #ead9d4;
+  --border-radius: 6px;
+  --border-radius-small: 3px;
   --box-shadow:
-    0 1px 2px rgb(15 23 42 / 5%),
-    0 8px 24px rgb(15 23 42 / 8%);
-  --shadow-sm: 0 1px 2px rgb(15 23 42 / 6%), 0 4px 12px rgb(15 23 42 / 8%);
-  --shadow-md: 0 4px 12px rgb(15 23 42 / 12%), 0 16px 40px rgb(15 23 42 / 10%);
+    0 1px 2px rgb(26 26 26 / 5%),
+    0 8px 24px rgb(26 26 26 / 8%);
+  --shadow-sm: 0 1px 2px rgb(26 26 26 / 6%), 0 4px 12px rgb(26 26 26 / 8%);
+  --shadow-md: 0 4px 12px rgb(26 26 26 / 12%), 0 16px 40px rgb(26 26 26 / 10%);
 
-  --font-family-heading: "Space Grotesk", system-ui, sans-serif;
+  --font-family-heading: "Astoria", "Times New Roman", serif;
   --font-family-body: "Inter", system-ui, sans-serif;
   --line-height: 1.65;
 
@@ -54,74 +60,108 @@
   --link-decoration-hover: underline;
 
   --list-marker-content: "▸  ";
-  --list-marker-color: #ea580c;
+  --list-marker-color: #eb4b36;
 }
 
-// Headings — a touch tighter so the brand voice reads confident
+// Headings — Astoria has classical proportions, let them breathe a little.
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 700;
-  letter-spacing: -0.015em;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 h1 {
-  letter-spacing: -0.025em;
+  letter-spacing: -0.01em;
 }
 
-// Hero gradient: lay an orange-to-navy ribbon under the brand-gradient.
-.design-system .hero.gradient,
-.design-system section.gradient {
+// Brand-mark watermark — a faint, oversized logo drifts on the body
+// so the page feels owned. Pinned bottom-right and dialled right back
+// so it never competes with content.
+body::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  inset: 0;
   background:
-    linear-gradient(
-      135deg,
-      var(--color-gradient-start) 0%,
-      var(--color-gradient-end) 100%
-    );
+    url("/images/brand-logo.png") no-repeat right -6rem bottom -6rem / 32rem auto;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+// Hero / CTA gradient: brand-red bleeding into near-black, with the
+// muted-text variable rewritten so .lead reads as white-on-red.
+.design-system .hero.gradient,
+.design-system section.gradient,
+.design-system .cta {
+  --color-text-muted: rgb(255 255 255 / 85%);
+
   color: var(--color-contrast-text);
 
-  // Hero copy and the badge should read clearly on the gradient
   .badge {
     background: rgb(255 255 255 / 18%);
     color: var(--color-contrast-text);
     border-color: rgb(255 255 255 / 35%);
   }
+
+  // Outlined secondary button reads as white-on-red so it doesn't
+  // disappear into the gradient.
+  .btn--secondary {
+    border-color: var(--color-contrast-text);
+    color: var(--color-contrast-text);
+
+    &:hover {
+      color: var(--color-link);
+      background: var(--color-contrast-text);
+    }
+  }
+}
+
+.design-system .hero.gradient,
+.design-system section.gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-gradient-start) 0%,
+    var(--color-gradient-end) 100%
+  );
 }
 
 // Logo lockup in the nav bar
 .nav-logo {
   display: inline-flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 0.7rem;
   text-decoration: none !important;
   color: var(--color-text) !important;
   font-family: var(--font-family-heading);
-  font-weight: 700;
-  letter-spacing: -0.01em;
+  font-weight: 400;
+  letter-spacing: 0;
   white-space: nowrap;
+  line-height: 1;
 
   img {
     display: block;
-    height: 36px;
+    height: 40px;
     width: auto;
-    border-radius: 3px;
   }
 
   .nav-logo__text {
     display: inline-flex;
     flex-direction: column;
-    line-height: 1.1;
-    font-size: 1.05rem;
+    gap: 2px;
+    line-height: 1.05;
+    font-size: 1.25rem;
   }
 
   .nav-logo__tag {
-    font-size: 0.7rem;
+    font-family: var(--font-family-body);
+    font-size: 0.68rem;
     font-weight: 500;
     color: var(--color-text-muted);
-    letter-spacing: 0.05em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
   }
 
@@ -131,7 +171,6 @@ h1 {
 }
 
 // Push the logo to the left so the menu can sit on the right.
-// horizontal-nav uses justify-content: center by default — override here.
 @media (min-width: 768px) {
   .design-system.horizontal-nav nav {
     justify-content: space-between !important;
@@ -144,10 +183,11 @@ h1 {
   }
 }
 
-// Make stat blocks feel like an inspection tag — orange numerals.
+// Stat numerals in the brand red so they catch the eye.
 .design-system .stats .stat .value,
 .design-system .stat .value {
-  color: var(--color-secondary);
+  color: var(--color-link);
+  font-family: var(--font-family-heading);
 }
 
 // Quiet hover lift on cards and buttons.
@@ -177,7 +217,7 @@ a {
   text-decoration-thickness: 1.5px;
 }
 
-// Tinted table headers for the inspection-spec feel
+// Tinted table headers
 table thead {
   background-color: var(--color-tint);
 }
