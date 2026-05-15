@@ -1,39 +1,50 @@
 @charset "utf-8";
-@use "sass:color";
 
-// PIPA Testing — workshop / inspection theme
-// Warm off-white paper, steel-slate text, safety-amber accents
-// over a faint blueprint grid.
+// PIPA Testing — brand theme
+// PIPA-blue primary, safety-orange accent, clean white backgrounds.
+// Inspired by the PIPA scheme logo (deep blue) and on-site safety kit (orange).
 
 @import url("https://fonts.bunny.net/css?family=inter:400,500,600,700|space-grotesk:500,600,700&display=swap");
 
 :root {
   --width-content: 1300px;
 
-  --color-bg: #faf8f3;
-  --color-card-bg: rgb(253 252 248 / 78%);
-  --color-accent: #f1ede2;
-  --color-text: #1f2937;
-  --color-link: #b45309;
-  --color-link-hover: #7c2d12;
-  --color-tint: #fff5e1;
-  --color-contrast-text: #faf8f3;
-  --color-contrast-text-muted: rgb(250 248 243 / 80%);
+  // Backgrounds: clean, with the faintest cool tint
+  --color-bg: #f7f9fc;
+  --color-card-bg: #ffffff;
+  --color-accent: #f1f5fb;
+  --color-text: #0f172a;
+  --color-text-muted: #475569;
 
-  --color-gradient-start: rgb(180 83 9 / 22%);
-  --color-gradient-end: rgb(31 41 55 / 22%);
+  // Primary: PIPA navy (sampled from the logo, lightly modernised)
+  --color-link: #1e3a8a;
+  --color-link-hover: #2849a8;
+  --color-tint: #dbeafe;
 
-  // Faint blueprint grid behind everything
-  --body-background: #ece9df
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath fill='none' stroke='%231f2937' stroke-opacity='0.07' stroke-width='1' d='M40 0H0v40 M0 20h40 M20 0v40'/%3E%3C/svg%3E");
-  --body-background-alt: #e6e3d8
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath fill='none' stroke='%231f2937' stroke-opacity='0.07' stroke-width='1' d='M40 0H0v40 M0 20h40 M20 0v40'/%3E%3C/svg%3E");
+  // Secondary / accent: safety orange — used on the gradient and CTAs
+  --color-secondary: #ea580c;
 
-  --border: 1px solid #d6d2c4;
-  --border-radius: 6px;
-  --border-radius-small: 3px;
-  --box-shadow: 0 1px 2px rgb(31 41 55 / 4%),
-    0 10px 28px rgb(31 41 55 / 7%);
+  --color-contrast-text: #ffffff;
+  --color-contrast-text-muted: rgb(255 255 255 / 82%);
+
+  // Hero gradient: PIPA navy bleeding into safety orange
+  --color-gradient-start: rgb(30 58 138 / 92%);
+  --color-gradient-end: rgb(234 88 12 / 88%);
+
+  // Body backdrop: very faint diagonal hatch so the page doesn't feel flat
+  --body-background:
+    #eef2f7
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28'%3E%3Cpath fill='none' stroke='%231e3a8a' stroke-opacity='0.05' stroke-width='1' d='M0 28L28 0M-7 7L7-7M21 35L35 21'/%3E%3C/svg%3E");
+  --body-background-alt: #e8edf4;
+
+  --border: 1px solid #d6dde7;
+  --border-radius: 8px;
+  --border-radius-small: 4px;
+  --box-shadow:
+    0 1px 2px rgb(15 23 42 / 5%),
+    0 8px 24px rgb(15 23 42 / 8%);
+  --shadow-sm: 0 1px 2px rgb(15 23 42 / 6%), 0 4px 12px rgb(15 23 42 / 8%);
+  --shadow-md: 0 4px 12px rgb(15 23 42 / 12%), 0 16px 40px rgb(15 23 42 / 10%);
 
   --font-family-heading: "Space Grotesk", system-ui, sans-serif;
   --font-family-body: "Inter", system-ui, sans-serif;
@@ -41,64 +52,132 @@
 
   --link-decoration: none;
   --link-decoration-hover: underline;
-  --link-decoration-style: solid;
 
   --list-marker-content: "▸  ";
-  --list-marker-color: #b45309;
+  --list-marker-color: #ea580c;
 }
 
-// A bit more structure on headings.
+// Headings — a touch tighter so the brand voice reads confident
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-weight: 700;
+  letter-spacing: -0.015em;
 }
 
 h1 {
-  letter-spacing: -0.02em;
+  letter-spacing: -0.025em;
 }
 
-// Quietly lift cards and buttons on hover. Fully respects reduced-motion.
+// Hero gradient: lay an orange-to-navy ribbon under the brand-gradient.
+.design-system .hero.gradient,
+.design-system section.gradient {
+  background:
+    linear-gradient(
+      135deg,
+      var(--color-gradient-start) 0%,
+      var(--color-gradient-end) 100%
+    );
+  color: var(--color-contrast-text);
+
+  // Hero copy and the badge should read clearly on the gradient
+  .badge {
+    background: rgb(255 255 255 / 18%);
+    color: var(--color-contrast-text);
+    border-color: rgb(255 255 255 / 35%);
+  }
+}
+
+// Logo lockup in the nav bar
+.nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none !important;
+  color: var(--color-text) !important;
+  font-family: var(--font-family-heading);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+
+  img {
+    display: block;
+    height: 36px;
+    width: auto;
+    border-radius: 3px;
+  }
+
+  .nav-logo__text {
+    display: inline-flex;
+    flex-direction: column;
+    line-height: 1.1;
+    font-size: 1.05rem;
+  }
+
+  .nav-logo__tag {
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+// Push the logo to the left so the menu can sit on the right.
+// horizontal-nav uses justify-content: center by default — override here.
+@media (min-width: 768px) {
+  .design-system.horizontal-nav nav {
+    justify-content: space-between !important;
+    gap: 1.5rem;
+
+    > ul {
+      flex: 0 1 auto;
+      justify-content: flex-end;
+    }
+  }
+}
+
+// Make stat blocks feel like an inspection tag — orange numerals.
+.design-system .stats .stat .value,
+.design-system .stat .value {
+  color: var(--color-secondary);
+}
+
+// Quiet hover lift on cards and buttons.
 @media (prefers-reduced-motion: no-preference) {
-  article,
-  button,
-  .button,
-  input[type="submit"],
-  body > footer .socials a img {
+  .design-system article,
+  .design-system .btn,
+  .design-system button,
+  .design-system .feature,
+  .design-system .callout {
     transition:
-      transform 0.25s ease,
-      box-shadow 0.25s ease,
-      border-color 0.25s ease,
-      background-color 0.25s ease;
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease;
   }
 
-  article:hover {
+  .design-system .feature:hover,
+  .design-system article:hover {
     transform: translateY(-2px);
-    box-shadow:
-      0 1px 2px rgb(31 41 55 / 5%),
-      0 16px 32px rgb(31 41 55 / 9%);
-  }
-
-  button:hover,
-  .button:hover,
-  input[type="submit"]:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgb(180 83 9 / 24%);
-    border-color: var(--color-link);
+    box-shadow: var(--shadow-md);
   }
 }
 
-// Underline links on hover gets an amber underline that grows in.
+// Underlines: a touch more breathing room
 a {
   text-underline-offset: 3px;
   text-decoration-thickness: 1.5px;
 }
 
-// Lightly tinted table headers — feels like an inspection sheet.
+// Tinted table headers for the inspection-spec feel
 table thead {
   background-color: var(--color-tint);
 }
