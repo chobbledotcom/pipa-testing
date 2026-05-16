@@ -1,104 +1,251 @@
 @charset "utf-8";
-@use "sass:color";
 
-// PIPA Testing — workshop / inspection theme
-// Warm off-white paper, steel-slate text, safety-amber accents
-// over a faint blueprint grid.
+// PIPA Testing — brand theme
+// Brand red lifted straight off the new logo (#eb4b36) on white,
+// charcoal text, AstoriaRoman for headings. Brand-mark watermark
+// drifts behind the body so the page feels owned, not generic.
 
-@import url("https://fonts.bunny.net/css?family=inter:400,500,600,700|space-grotesk:500,600,700&display=swap");
+@font-face {
+  font-family: "Astoria";
+  src:
+    url("/assets/fonts/AstoriaRoman.woff2") format("woff2"),
+    url("/assets/fonts/AstoriaRoman.woff") format("woff");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@import url("https://fonts.bunny.net/css?family=inter:400,500,600,700&display=swap");
 
 :root {
   --width-content: 1300px;
 
-  --color-bg: #faf8f3;
-  --color-card-bg: rgb(253 252 248 / 78%);
-  --color-accent: #f1ede2;
-  --color-text: #1f2937;
-  --color-link: #b45309;
-  --color-link-hover: #7c2d12;
-  --color-tint: #fff5e1;
-  --color-contrast-text: #faf8f3;
-  --color-contrast-text-muted: rgb(250 248 243 / 80%);
+  // Backgrounds: warm white over a faint brand-mark watermark.
+  --color-bg: #fbfafa;
+  --color-card-bg: #ffffff;
+  --color-accent: #fdecea;
+  --color-text: #1a1a1a;
+  --color-text-muted: #5a5a5a;
 
-  --color-gradient-start: rgb(180 83 9 / 22%);
-  --color-gradient-end: rgb(31 41 55 / 22%);
+  // Primary: brand red (sampled from branding/logo-03.png)
+  --color-link: #eb4b36;
+  --color-link-hover: #c73a26;
+  --color-tint: #fdecea;
+  --color-secondary: #1a1a1a;
 
-  // Faint blueprint grid behind everything
-  --body-background: #ece9df
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath fill='none' stroke='%231f2937' stroke-opacity='0.07' stroke-width='1' d='M40 0H0v40 M0 20h40 M20 0v40'/%3E%3C/svg%3E");
-  --body-background-alt: #e6e3d8
-    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cpath fill='none' stroke='%231f2937' stroke-opacity='0.07' stroke-width='1' d='M40 0H0v40 M0 20h40 M20 0v40'/%3E%3C/svg%3E");
+  --color-contrast-text: #ffffff;
+  --color-contrast-text-muted: rgb(255 255 255 / 85%);
 
-  --border: 1px solid #d6d2c4;
+  // Hero gradient: deep red into off-black for a confident, branded ribbon.
+  --color-gradient-start: #eb4b36;
+  --color-gradient-end: #2a1a17;
+
+  // Body backdrop: warm off-white with the brand-mark watermark blended
+  // way back so it reads as texture, not pattern.
+  --body-background: #f6f3f1;
+  --body-background-alt: #efeae8;
+
+  --border: 1px solid #ead9d4;
   --border-radius: 6px;
   --border-radius-small: 3px;
-  --box-shadow: 0 1px 2px rgb(31 41 55 / 4%),
-    0 10px 28px rgb(31 41 55 / 7%);
+  --box-shadow:
+    0 1px 2px rgb(26 26 26 / 5%),
+    0 8px 24px rgb(26 26 26 / 8%);
+  --shadow-sm: 0 1px 2px rgb(26 26 26 / 6%), 0 4px 12px rgb(26 26 26 / 8%);
+  --shadow-md: 0 4px 12px rgb(26 26 26 / 12%), 0 16px 40px rgb(26 26 26 / 10%);
 
-  --font-family-heading: "Space Grotesk", system-ui, sans-serif;
+  --font-family-heading: "Astoria", "Times New Roman", serif;
   --font-family-body: "Inter", system-ui, sans-serif;
   --line-height: 1.65;
 
   --link-decoration: none;
   --link-decoration-hover: underline;
-  --link-decoration-style: solid;
 
   --list-marker-content: "▸  ";
-  --list-marker-color: #b45309;
+  --list-marker-color: #eb4b36;
 }
 
-// A bit more structure on headings.
+// Headings — Astoria has classical proportions, let them breathe a little.
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-weight: 600;
-  letter-spacing: -0.01em;
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 h1 {
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
 }
 
-// Quietly lift cards and buttons on hover. Fully respects reduced-motion.
+// Brand-mark watermark — a faint, oversized logo drifts on the body
+// so the page feels owned. Pinned bottom-right and dialled right back
+// so it never competes with content.
+body::before {
+  content: "";
+  position: fixed;
+  z-index: -1;
+  inset: 0;
+  background:
+    url("/images/brand-logo.png") no-repeat right -6rem bottom -6rem / 32rem auto;
+  opacity: 0.04;
+  pointer-events: none;
+}
+
+// Hero / CTA gradient: brand-red bleeding into near-black, with the
+// muted-text variable rewritten so .lead reads as white-on-red.
+.design-system .hero.gradient,
+.design-system section.gradient,
+.design-system .cta {
+  --color-text-muted: rgb(255 255 255 / 85%);
+
+  color: var(--color-contrast-text);
+
+  .badge {
+    background: rgb(255 255 255 / 18%);
+    color: var(--color-contrast-text);
+    border-color: rgb(255 255 255 / 35%);
+  }
+
+  // Outlined secondary button reads as white-on-red so it doesn't
+  // disappear into the gradient.
+  .btn--secondary {
+    border-color: var(--color-contrast-text);
+    color: var(--color-contrast-text);
+
+    &:hover {
+      color: var(--color-link);
+      background: var(--color-contrast-text);
+    }
+  }
+}
+
+.design-system .hero.gradient,
+.design-system section.gradient {
+  background: linear-gradient(
+    135deg,
+    var(--color-gradient-start) 0%,
+    var(--color-gradient-end) 100%
+  );
+}
+
+// Nav bar layout — turn the wrapper into a single flex row so the
+// brand lockup sits left and the menu sits right on the same line.
+// The horizontal-nav mixin only sets justify-content; <nav> stays
+// display: block by default, which is why the logo would otherwise
+// wrap above the menu.
+@media (min-width: 768px) {
+  .design-system.horizontal-nav nav {
+    display: flex !important;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between !important;
+    align-items: center;
+    gap: 1.5rem;
+
+    > ul {
+      flex: 0 1 auto;
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}
+
+// Logo lockup in the nav bar
+.nav-logo {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 0.7rem;
+  text-decoration: none !important;
+  color: var(--color-text) !important;
+  font-family: var(--font-family-heading);
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+  line-height: 1;
+
+  // Eleventy-img wraps logo images in <div class="image-wrapper"><picture>...
+  // so we constrain the wrapper, not the <img> directly.
+  .image-wrapper,
+  img {
+    display: block;
+    width: auto !important;
+    height: 44px !important;
+    max-width: none !important;
+    aspect-ratio: auto !important;
+    background: none !important;
+  }
+
+  picture {
+    display: block;
+    height: 44px;
+  }
+
+  picture img {
+    height: 100%;
+    width: auto;
+  }
+
+  .nav-logo__text {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 2px;
+    line-height: 1.05;
+    font-size: 1.25rem;
+  }
+
+  .nav-logo__tag {
+    font-family: var(--font-family-body);
+    font-size: 0.68rem;
+    font-weight: 500;
+    color: var(--color-text-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+// Stat numerals in the brand red so they catch the eye.
+.design-system .stats .stat .value,
+.design-system .stat .value {
+  color: var(--color-link);
+  font-family: var(--font-family-heading);
+}
+
+// Quiet hover lift on cards and buttons.
 @media (prefers-reduced-motion: no-preference) {
-  article,
-  button,
-  .button,
-  input[type="submit"],
-  body > footer .socials a img {
+  .design-system article,
+  .design-system .btn,
+  .design-system button,
+  .design-system .feature,
+  .design-system .callout {
     transition:
-      transform 0.25s ease,
-      box-shadow 0.25s ease,
-      border-color 0.25s ease,
-      background-color 0.25s ease;
+      transform 0.2s ease,
+      box-shadow 0.2s ease,
+      background-color 0.2s ease,
+      border-color 0.2s ease;
   }
 
-  article:hover {
+  .design-system .feature:hover,
+  .design-system article:hover {
     transform: translateY(-2px);
-    box-shadow:
-      0 1px 2px rgb(31 41 55 / 5%),
-      0 16px 32px rgb(31 41 55 / 9%);
-  }
-
-  button:hover,
-  .button:hover,
-  input[type="submit"]:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 6px 16px rgb(180 83 9 / 24%);
-    border-color: var(--color-link);
+    box-shadow: var(--shadow-md);
   }
 }
 
-// Underline links on hover gets an amber underline that grows in.
+// Underlines: a touch more breathing room
 a {
   text-underline-offset: 3px;
   text-decoration-thickness: 1.5px;
 }
 
-// Lightly tinted table headers — feels like an inspection sheet.
+// Tinted table headers
 table thead {
   background-color: var(--color-tint);
 }
