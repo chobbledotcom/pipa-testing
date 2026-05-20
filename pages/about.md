@@ -10,7 +10,7 @@ eleventyNavigation:
 blocks:
   - type: hero
     badge: Meet your inspector
-    name: David "Dave" Morris
+    name: David (Dave) Morris
     lead: RPII-accredited PIPA inspector. Inflatable testing, repairs and RPII operator courses across Hampshire, Surrey, Sussex and the wider UK.
     buttons:
       - text: Call Dave
