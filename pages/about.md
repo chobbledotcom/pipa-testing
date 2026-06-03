@@ -52,6 +52,14 @@ blocks:
       - icon: mdi:tools
         name: Repair workshop
         description: On-site and workshop repairs for splits, anchors, beds, tubes and zips.
+  - type: image-background
+    image: /images/measuring-across.jpg
+    image_alt: Dave measuring the step of an inflatable during inspection
+    parallax: true
+    content: |
+      ## Hands-on inspections
+
+      Dave turns up, measures up and tests every unit himself.
   - type: section-header
     intro: |
       ## What Dave inspects

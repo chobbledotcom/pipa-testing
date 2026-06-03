@@ -21,6 +21,13 @@ blocks:
     icon: mdi:wrench-clock
     name: Often fixed on the same visit
     content: Many of the smaller repairs (small splits, anchor points, leaking seams and so on) can be done **on-site** while Dave is already there for the inspection, so the inflatable doesn't have to come back for a re-test.
+  - type: image-background
+    image: /images/jumping-pillow.jpg
+    image_alt: Jumping pillow outdoors on a sunny day
+    content: |
+      ## Back in service
+
+      Most repairs done on-site or in the workshop, so your kit gets back to earning its keep.
   - type: features
     intro_content: |
       ## What Dave repairs

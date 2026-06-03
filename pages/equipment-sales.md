@@ -24,7 +24,7 @@ blocks:
       ## Available to order
     image_aspect_ratio: 4/3
     items:
-      - image: /images/18mmgroundstake.jpg
+      - image: /images/18mm-ground-stakes.jpg
         name: Compliant anchor stakes
         description: |
           16mm dia rebar &times; 380mm o/a. Fully sharpened and deburred. Yellow zinc passivate finish.

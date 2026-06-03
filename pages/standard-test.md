@@ -69,6 +69,14 @@ blocks:
   - type: section-header
     intro: |
       ## What will be tested
+  - type: image-background
+    image: /images/measuring-across.jpg
+    image_alt: Dave measuring the step of an inflatable
+    parallax: true
+    content: |
+      ## Every dimension checked
+
+      Step sizes, wall heights, fall-off heights and anchor spacing all measured against the standard.
   - type: icon-links
     items:
       - icon: mdi:check
@@ -95,6 +103,24 @@ blocks:
         text: Deflation / evacuation time
       - icon: mdi:check
         text: Fire-retardant thread and material
+  - type: gallery
+    intro_content: |
+      ## Inspection in progress
+    aspect_ratio: 4/3
+    items:
+      - image: /images/manometer.jpg
+        caption: Hand holding a manometer gauge
+      - image: /images/measuring-across.jpg
+        caption: Dave measuring the step
+      - image: /images/measuring-up.jpg
+        caption: Dave measuring a vertical section
+  - type: image-background
+    image: /images/measuring-up.jpg
+    image_alt: Dave measuring a vertical part of an inflatable
+    content: |
+      ## Thorough from top to bottom
+
+      Seams, stitching, anchors, zips, pressure, entrapment, deflation time and fire retardancy.
   - type: cta
     content: |
       ## Book your standard test

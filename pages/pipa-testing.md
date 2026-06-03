@@ -57,6 +57,14 @@ blocks:
     right_button:
       text: Get a quote
       href: /contact/
+  - type: image-background
+    image: /images/manometer.jpg
+    image_alt: Hand holding a manometer gauge with a bouncy castle in the background
+    parallax: true
+    content: |
+      ## Minimum 4" on the manometer
+
+      Internal air pressure tested on every unit to make sure it holds.
   - type: features
     intro_content: |
       ## What Dave issues PIPA tags for

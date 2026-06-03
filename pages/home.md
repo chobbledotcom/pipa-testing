@@ -54,6 +54,14 @@ blocks:
       - icon: mdi:cart
         name: Equipment sales
         description: Compliant 16mm anchor stakes, barrier fencing and repair kits.
+  - type: image-background
+    image: /images/jumping-pillow.jpg
+    image_alt: Jumping pillow outdoors on a sunny day
+    parallax: true
+    content: |
+      ## Tested to BS EN 14960:2019
+
+      Every inflatable inspected to the current European safety standard.
   - type: split-image
     subtitle: Meet Dave Morris
     content: |
@@ -66,7 +74,7 @@ blocks:
       text: About Dave
       href: /about/
       variant: secondary
-    figure_src: /images/pipalogo.jpg
+    figure_src: /images/pipa-logo-circle.png
     figure_alt: PIPA scheme logo
   - type: split-callout
     content: |
@@ -89,6 +97,13 @@ blocks:
         label: Electrical testing
       - value: UK
         label: Mobile coverage
+  - type: image-background
+    image: /images/stakes.jpg
+    image_alt: Anchor stakes lying on grass
+    content: |
+      ## Equipment, repairs &amp; everything in between
+
+      Compliant stakes, barrier fencing, repair kits and on-site fixes to keep your fleet running.
   - type: cta
     content: |
       ## Book Dave for your next inspection
