@@ -11,17 +11,13 @@ blocks:
   - type: image-background
     image: /images/stakes.jpg
     image_alt: Anchor stakes lying on grass
-    badge: All prices + VAT
-    name: Equipment sales
-    content: Compliant anchor stakes, barrier fencing and bouncy castle repair kits, the bits and pieces you need to keep your kit in good order between inspections.
     tint: true
-    buttons:
-      - text: Order from Dave
-        href: tel:+447990520545
-        variant: primary
-      - text: Email us
-        href: mailto:pipatesting@gmail.com
-        variant: secondary
+    content: |
+      ## Equipment sales
+
+      Compliant anchor stakes, barrier fencing and bouncy castle repair kits, the bits and pieces you need to keep your kit in good order between inspections.
+
+      [Order from Dave](tel:+447990520545){ .button .primary } [Email us](mailto:pipatesting@gmail.com){ .button .secondary }
   - type: image-cards
     intro_content: |
       ## Available to order

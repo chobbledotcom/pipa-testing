@@ -11,17 +11,13 @@ blocks:
   - type: image-background
     image: /images/jumping-pillow.jpg
     image_alt: Jumping pillow outdoors on a sunny day
-    badge: Train your operators &amp; attendants
-    name: RPII operator courses
-    content: Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
     tint: true
-    buttons:
-      - text: Book a course
-        href: /contact/
-        variant: primary
-      - text: Talk to Dave
-        href: tel:+447990520545
-        variant: secondary
+    content: |
+      ## RPII operator courses
+
+      Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
+
+      [Book a course](/contact/){ .button .primary } [Talk to Dave](tel:+447990520545){ .button .secondary }
   - type: section-header
     intro: |
       ## What the courses cover

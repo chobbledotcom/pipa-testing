@@ -11,14 +11,13 @@ blocks:
   - type: image-background
     image: /images/sewing.jpg
     image_alt: Sewing machine repairing inflatable fabric
-    badge: On-site &amp; workshop repairs
-    name: Inflatable repairs
-    content: Split seams, broken anchors, blown beds and the rest. Dave does the repairs in the workshop or on-site, depending on what's gone and how big the job is.
     tint: true
-    buttons:
-      - text: Get an estimate
-        href: /contact/
-        variant: primary
+    content: |
+      ## Inflatable repairs
+
+      Split seams, broken anchors, blown beds and the rest. Dave does the repairs in the workshop or on-site, depending on what's gone and how big the job is.
+
+      [Get an estimate](/contact/){ .button .primary }
   - type: callout
     variant: info
     icon: mdi:wrench-clock

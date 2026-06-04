@@ -11,17 +11,13 @@ blocks:
   - type: image-background
     image: /images/measuring-across.jpg
     image_alt: Dave measuring the step of an inflatable during inspection
-    badge: Meet your inspector
-    name: David (Dave) Morris
-    content: RPII-accredited PIPA inspector. Inflatable testing, repairs and RPII operator courses across Hampshire, Surrey, Sussex and the wider UK.
     tint: true
-    buttons:
-      - text: Call Dave
-        href: tel:+447990520545
-        variant: primary
-      - text: Send a message
-        href: /contact/
-        variant: secondary
+    content: |
+      ## David (Dave) Morris
+
+      RPII-accredited PIPA inspector. Inflatable testing, repairs and RPII operator courses across Hampshire, Surrey, Sussex and the wider UK.
+
+      [Call Dave](tel:+447990520545){ .button .primary } [Send a message](/contact/){ .button .secondary }
   - type: split-callout
     content: |
       ## Dave answers his own phone
