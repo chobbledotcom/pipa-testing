@@ -31,7 +31,7 @@ blocks:
 
           **&pound;3.50 each + VAT**
         link: /contact/
-      - image: /images/orangefencing.jpg
+      - image: /images/barrier-fencing.jpg
         name: Barrier fencing
         description: |
           50 metre rolls at **&pound;26.00 + VAT** per roll.
