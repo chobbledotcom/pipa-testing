@@ -61,6 +61,7 @@ blocks:
     image: /images/manometer.jpg
     image_alt: Hand holding a manometer gauge with a bouncy castle in the background
     parallax: true
+    tint: true
     content: |
       ## Minimum 4" on the manometer
 

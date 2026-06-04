@@ -58,6 +58,7 @@ blocks:
     image: /images/jumping-pillow.jpg
     image_alt: Jumping pillow outdoors on a sunny day
     parallax: true
+    tint: true
     content: |
       ## Tested to BS EN 14960:2019
 
@@ -100,6 +101,7 @@ blocks:
   - type: image-background
     image: /images/stakes.jpg
     image_alt: Anchor stakes lying on grass
+    tint: true
     content: |
       ## Equipment, repairs &amp; everything in between
 

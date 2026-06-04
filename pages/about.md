@@ -56,6 +56,7 @@ blocks:
     image: /images/measuring-across.jpg
     image_alt: Dave measuring the step of an inflatable during inspection
     parallax: true
+    tint: true
     content: |
       ## Hands-on inspections
 

@@ -73,6 +73,7 @@ blocks:
     image: /images/measuring-across.jpg
     image_alt: Dave measuring the step of an inflatable
     parallax: true
+    tint: true
     content: |
       ## Every dimension checked
 
@@ -117,6 +118,7 @@ blocks:
   - type: image-background
     image: /images/measuring-up.jpg
     image_alt: Dave measuring a vertical part of an inflatable
+    tint: true
     content: |
       ## Thorough from top to bottom
 

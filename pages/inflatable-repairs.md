@@ -24,6 +24,7 @@ blocks:
   - type: image-background
     image: /images/jumping-pillow.jpg
     image_alt: Jumping pillow outdoors on a sunny day
+    tint: true
     content: |
       ## Back in service
 

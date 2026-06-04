@@ -38,6 +38,7 @@ blocks:
   - type: image-background
     image: /images/pipa-app.jpg
     image_alt: Hand holding a phone using the PIPA web app to record a test
+    tint: true
     content: |
       ## Listed in the PIPA database
 
