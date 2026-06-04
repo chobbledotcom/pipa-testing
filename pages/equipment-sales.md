@@ -8,6 +8,10 @@ eleventyNavigation:
   key: Equipment Sales
   order: 8
 blocks:
+  - type: image-background
+    image: /images/stakes.jpg
+    image_alt: Anchor stakes lying on grass
+    tint: true
   - type: hero
     badge: All prices + VAT
     name: Equipment sales

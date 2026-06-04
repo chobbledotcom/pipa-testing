@@ -8,6 +8,10 @@ eleventyNavigation:
   key: PIPA Testing
   order: 4
 blocks:
+  - type: image-background
+    image: /images/manometer.jpg
+    image_alt: Hand holding a manometer gauge with a bouncy castle in the background
+    tint: true
   - type: hero
     badge: PIPA scheme &middot; RPII inspector
     name: PIPA testing
@@ -57,15 +61,13 @@ blocks:
     right_button:
       text: Get a quote
       href: /contact/
-  - type: image-background
-    image: /images/manometer.jpg
-    image_alt: Hand holding a manometer gauge with a bouncy castle in the background
-    parallax: true
-    tint: true
+  - type: split-image
     content: |
       ## Minimum 4" on the manometer
 
       Internal air pressure tested on every unit to make sure it holds.
+    figure_src: /images/manometer.jpg
+    figure_alt: Hand holding a manometer gauge
   - type: features
     intro_content: |
       ## What Dave issues PIPA tags for

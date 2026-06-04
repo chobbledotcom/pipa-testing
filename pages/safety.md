@@ -8,6 +8,10 @@ eleventyNavigation:
   key: Safety
   order: 3
 blocks:
+  - type: image-background
+    image: /images/pipa-app.jpg
+    image_alt: Hand holding a phone using the PIPA web app to record a test
+    tint: true
   - type: hero
     badge: Industry safety standard
     name: Inflatable safety
@@ -35,14 +39,13 @@ blocks:
       - icon: mdi:office-building
         name: Approved for commercial use
         description: Equipment approved for commercial hire and use.
-  - type: image-background
-    image: /images/pipa-app.jpg
-    image_alt: Hand holding a phone using the PIPA web app to record a test
-    tint: true
+  - type: split-image
     content: |
       ## Listed in the PIPA database
 
       Every tagged unit is recorded in the national PIPA register, so anyone can verify its status.
+    figure_src: /images/pipa-app.jpg
+    figure_alt: Hand holding a phone using the PIPA web app
   - type: section-header
     intro: |
       ## What the PIPA scheme delivers

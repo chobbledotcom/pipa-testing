@@ -8,6 +8,10 @@ eleventyNavigation:
   key: RPII Courses
   order: 6
 blocks:
+  - type: image-background
+    image: /images/jumping-pillow.jpg
+    image_alt: Jumping pillow outdoors on a sunny day
+    tint: true
   - type: hero
     badge: Train your operators &amp; attendants
     name: RPII operator courses

@@ -8,6 +8,10 @@ eleventyNavigation:
   key: Standard Test
   order: 5
 blocks:
+  - type: image-background
+    image: /images/measuring-across.jpg
+    image_alt: Dave measuring the step of an inflatable
+    tint: true
   - type: hero
     badge: BS EN 14960:2019
     name: Standard test
@@ -69,15 +73,13 @@ blocks:
   - type: section-header
     intro: |
       ## What will be tested
-  - type: image-background
-    image: /images/measuring-across.jpg
-    image_alt: Dave measuring the step of an inflatable
-    parallax: true
-    tint: true
+  - type: split-image
     content: |
       ## Every dimension checked
 
       Step sizes, wall heights, fall-off heights and anchor spacing all measured against the standard.
+    figure_src: /images/measuring-across.jpg
+    figure_alt: Dave measuring the step of an inflatable
   - type: icon-links
     items:
       - icon: mdi:check
@@ -115,14 +117,13 @@ blocks:
         caption: Dave measuring the step
       - image: /images/measuring-up.jpg
         caption: Dave measuring a vertical section
-  - type: image-background
-    image: /images/measuring-up.jpg
-    image_alt: Dave measuring a vertical part of an inflatable
-    tint: true
+  - type: split-image
     content: |
       ## Thorough from top to bottom
 
       Seams, stitching, anchors, zips, pressure, entrapment, deflation time and fire retardancy.
+    figure_src: /images/measuring-up.jpg
+    figure_alt: Dave measuring a vertical part of an inflatable
   - type: cta
     content: |
       ## Book your standard test

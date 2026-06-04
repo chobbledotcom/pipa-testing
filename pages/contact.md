@@ -8,6 +8,10 @@ eleventyNavigation:
   key: Contact
   order: 9
 blocks:
+  - type: image-background
+    image: /images/measuring-up.jpg
+    image_alt: Inspector measuring an inflatable
+    tint: true
   - type: hero
     badge: Talk to Dave
     name: Contact us

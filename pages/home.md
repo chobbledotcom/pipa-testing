@@ -8,6 +8,10 @@ eleventyNavigation:
   key: Home
   order: 1
 blocks:
+  - type: image-background
+    image: /images/measuring-up.jpg
+    image_alt: Inspector measuring a vertical section of an inflatable
+    tint: true
   - type: hero
     class: gradient
     badge: RPII-accredited PIPA inspector
@@ -54,15 +58,14 @@ blocks:
       - icon: mdi:cart
         name: Equipment sales
         description: Compliant 16mm anchor stakes, barrier fencing and repair kits.
-  - type: image-background
-    image: /images/jumping-pillow.jpg
-    image_alt: Jumping pillow outdoors on a sunny day
-    parallax: true
-    tint: true
+  - type: split-image
+    subtitle: BS EN 14960:2019
     content: |
-      ## Tested to BS EN 14960:2019
+      ## Tested to the current standard
 
-      Every inflatable inspected to the current European safety standard.
+      Every inflatable inspected to the current European safety standard, from everyday bouncy castles to bouncing pillows and bungee runs.
+    figure_src: /images/jumping-pillow.jpg
+    figure_alt: Jumping pillow outdoors on a sunny day
   - type: split-image
     subtitle: Meet Dave Morris
     content: |
@@ -98,14 +101,13 @@ blocks:
         label: Electrical testing
       - value: UK
         label: Mobile coverage
-  - type: image-background
-    image: /images/stakes.jpg
-    image_alt: Anchor stakes lying on grass
-    tint: true
+  - type: split-image
     content: |
       ## Equipment, repairs &amp; everything in between
 
       Compliant stakes, barrier fencing, repair kits and on-site fixes to keep your fleet running.
+    figure_src: /images/stakes.jpg
+    figure_alt: Anchor stakes lying on grass
   - type: cta
     content: |
       ## Book Dave for your next inspection

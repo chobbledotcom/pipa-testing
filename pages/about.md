@@ -8,6 +8,10 @@ eleventyNavigation:
   key: About Dave
   order: 2
 blocks:
+  - type: image-background
+    image: /images/measuring-across.jpg
+    image_alt: Dave measuring the step of an inflatable during inspection
+    tint: true
   - type: hero
     badge: Meet your inspector
     name: David (Dave) Morris
@@ -52,15 +56,13 @@ blocks:
       - icon: mdi:tools
         name: Repair workshop
         description: On-site and workshop repairs for splits, anchors, beds, tubes and zips.
-  - type: image-background
-    image: /images/measuring-across.jpg
-    image_alt: Dave measuring the step of an inflatable during inspection
-    parallax: true
-    tint: true
+  - type: split-image
     content: |
       ## Hands-on inspections
 
       Dave turns up, measures up and tests every unit himself.
+    figure_src: /images/measuring-across.jpg
+    figure_alt: Dave measuring the step of an inflatable during inspection
   - type: section-header
     intro: |
       ## What Dave inspects
