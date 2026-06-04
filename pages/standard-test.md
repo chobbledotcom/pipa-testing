@@ -11,11 +11,10 @@ blocks:
   - type: image-background
     image: /images/measuring-across.jpg
     image_alt: Dave measuring the step of an inflatable
-    tint: true
-  - type: hero
     badge: BS EN 14960:2019
     name: Standard test
-    lead: Annual inspections for non-PIPA inflatables to the latest European safety standard, by Dave Morris, an RPII-accredited inspector.
+    content: Annual inspections for non-PIPA inflatables to the latest European safety standard, by Dave Morris, an RPII-accredited inspector.
+    tint: true
     buttons:
       - text: Book a test
         href: /contact/

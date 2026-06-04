@@ -11,11 +11,10 @@ blocks:
   - type: image-background
     image: /images/sewing.jpg
     image_alt: Sewing machine repairing inflatable fabric
-    tint: true
-  - type: hero
     badge: On-site &amp; workshop repairs
     name: Inflatable repairs
-    lead: Split seams, broken anchors, blown beds and the rest. Dave does the repairs in the workshop or on-site, depending on what's gone and how big the job is.
+    content: Split seams, broken anchors, blown beds and the rest. Dave does the repairs in the workshop or on-site, depending on what's gone and how big the job is.
+    tint: true
     buttons:
       - text: Get an estimate
         href: /contact/

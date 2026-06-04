@@ -11,11 +11,10 @@ blocks:
   - type: image-background
     image: /images/pipa-app.jpg
     image_alt: Hand holding a phone using the PIPA web app to record a test
-    tint: true
-  - type: hero
     badge: Industry safety standard
     name: Inflatable safety
-    lead: Tagging and testing for bouncy castles and other inflatable play equipment, by an RPII-accredited inspector.
+    content: Tagging and testing for bouncy castles and other inflatable play equipment, by an RPII-accredited inspector.
+    tint: true
   - type: callout
     variant: warning
     icon: mdi:alert

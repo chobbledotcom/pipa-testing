@@ -11,12 +11,11 @@ blocks:
   - type: image-background
     image: /images/measuring-up.jpg
     image_alt: Inspector measuring a vertical section of an inflatable
-    tint: true
-  - type: hero
     class: gradient
     badge: RPII-accredited PIPA inspector
     name: Inflatable inspections by Dave Morris
-    lead: PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs, covering bouncy castles, slides, obstacle courses, bouncing pillows and more.
+    content: PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs, covering bouncy castles, slides, obstacle courses, bouncing pillows and more.
+    tint: true
     buttons:
       - text: Call Dave
         href: tel:+447990520545

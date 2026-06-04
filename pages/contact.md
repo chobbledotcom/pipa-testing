@@ -11,11 +11,10 @@ blocks:
   - type: image-background
     image: /images/measuring-up.jpg
     image_alt: Inspector measuring an inflatable
-    tint: true
-  - type: hero
     badge: Talk to Dave
     name: Contact us
-    lead: Book your PIPA test, standard test, PAT test, RPII course or inflatable repair, or order equipment.
+    content: Book your PIPA test, standard test, PAT test, RPII course or inflatable repair, or order equipment.
+    tint: true
   - type: icon-links
     intro_content: |
       ## Phone or email Dave

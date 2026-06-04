@@ -11,11 +11,10 @@ blocks:
   - type: image-background
     image: /images/jumping-pillow.jpg
     image_alt: Jumping pillow outdoors on a sunny day
-    tint: true
-  - type: hero
     badge: Train your operators &amp; attendants
     name: RPII operator courses
-    lead: Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
+    content: Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
+    tint: true
     buttons:
       - text: Book a course
         href: /contact/

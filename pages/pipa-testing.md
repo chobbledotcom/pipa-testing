@@ -11,11 +11,10 @@ blocks:
   - type: image-background
     image: /images/manometer.jpg
     image_alt: Hand holding a manometer gauge with a bouncy castle in the background
-    tint: true
-  - type: hero
     badge: PIPA scheme &middot; RPII inspector
     name: PIPA testing
-    lead: Full PIPA tests by Dave Morris, an RPII-accredited inspector. Tags and certificates issued on passing inspection.
+    content: Full PIPA tests by Dave Morris, an RPII-accredited inspector. Tags and certificates issued on passing inspection.
+    tint: true
     buttons:
       - text: Book with Dave
         href: tel:+447990520545
