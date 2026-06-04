@@ -17,7 +17,7 @@ blocks:
 
       Full PIPA tests by Dave Morris, an RPII-accredited inspector. Tags and certificates issued on passing inspection.
 
-      [Book with Dave](tel:+447990520545){ .button .primary } [Why PIPA?](/safety/){ .button .ghost }
+      [Book with Dave](tel:+447990520545) [Why PIPA?](/safety/)
   - type: section-header
     intro: |
       ## Test / inspection

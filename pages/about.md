@@ -17,7 +17,7 @@ blocks:
 
       RPII-accredited PIPA inspector. Inflatable testing, repairs and RPII operator courses across Hampshire, Surrey, Sussex and the wider UK.
 
-      [Call Dave](tel:+447990520545){ .button .primary } [Send a message](/contact/){ .button .secondary }
+      [Call Dave](tel:+447990520545) [Send a message](/contact/)
   - type: split-callout
     content: |
       ## Dave answers his own phone

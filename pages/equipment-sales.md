@@ -17,7 +17,7 @@ blocks:
 
       Compliant anchor stakes, barrier fencing and bouncy castle repair kits, the bits and pieces you need to keep your kit in good order between inspections.
 
-      [Order from Dave](tel:+447990520545){ .button .primary } [Email us](mailto:pipatesting@gmail.com){ .button .secondary }
+      [Order from Dave](tel:+447990520545) [Email us](mailto:pipatesting@gmail.com)
   - type: image-cards
     intro_content: |
       ## Available to order

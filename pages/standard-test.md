@@ -17,7 +17,7 @@ blocks:
 
       Annual inspections for non-PIPA inflatables to the latest European safety standard, by Dave Morris, an RPII-accredited inspector.
 
-      [Book a test](/contact/){ .button .primary }
+      [Book a test](/contact/)
   - type: section-header
     intro: |
       ## Test / inspection

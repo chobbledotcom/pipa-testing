@@ -18,7 +18,7 @@ blocks:
 
       PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs, covering bouncy castles, slides, obstacle courses, bouncing pillows and more.
 
-      [Call Dave](tel:+447990520545){ .button .primary .lg } [Get a quote](/contact/){ .button .secondary .lg }
+      [Call Dave](tel:+447990520545) [Get a quote](/contact/)
   - type: callout
     variant: success
     icon: mdi:tag

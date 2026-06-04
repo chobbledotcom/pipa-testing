@@ -17,7 +17,7 @@ blocks:
 
       Split seams, broken anchors, blown beds and the rest. Dave does the repairs in the workshop or on-site, depending on what's gone and how big the job is.
 
-      [Get an estimate](/contact/){ .button .primary }
+      [Get an estimate](/contact/)
   - type: callout
     variant: info
     icon: mdi:wrench-clock

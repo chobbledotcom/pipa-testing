@@ -17,7 +17,7 @@ blocks:
 
       Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
 
-      [Book a course](/contact/){ .button .primary } [Talk to Dave](tel:+447990520545){ .button .secondary }
+      [Book a course](/contact/) [Talk to Dave](tel:+447990520545)
   - type: section-header
     intro: |
       ## What the courses cover
