@@ -1,6 +1,5 @@
 ---
 permalink: /pipa-testing/
-layout: design-system-base.html
 name: PIPA Testing
 meta_title: PIPA Testing for Inflatables | Dave Morris RPII Inspector
 meta_description: PIPA tests carried out personally by Dave Morris, an RPII-accredited inspector, to BS EN 14960:2019. Tags, certificates and full pricing.

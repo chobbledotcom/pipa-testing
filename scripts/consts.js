@@ -25,5 +25,6 @@ export const sourceExcludes = [
   "old_site",
   "chobble-template",
   "CLAUDE.md",
+  "VOICE.md",
   ...(process.env.PLACEHOLDER_IMAGES === "1" ? ["images"] : []),
 ];

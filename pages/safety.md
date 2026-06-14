@@ -1,6 +1,5 @@
 ---
 permalink: /safety/
-layout: design-system-base.html
 name: Safety
 meta_title: Inflatable Safety & the PIPA Scheme | PIPA Testing
 meta_description: Why every bouncy castle and inflatable should carry a current PIPA tag, and what the PIPA scheme delivers for operators and the public. Inspections by RPII-accredited inspector Dave Morris.

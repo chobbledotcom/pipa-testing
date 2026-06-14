@@ -1,6 +1,5 @@
 ---
 permalink: /about/
-layout: design-system-base.html
 name: About Dave
 meta_title: About Dave Morris - RPII Inspector | PIPA Testing
 meta_description: Meet David (Dave) Morris, the RPII-accredited PIPA inspector behind Monster Event Hire. Inflatable inspections, repairs and RPII courses across Hampshire, Surrey, Sussex and the UK.

@@ -1,6 +1,5 @@
 ---
 permalink: /rpii-courses/
-layout: design-system-base.html
 name: RPII Courses
 meta_title: RPII Operating & Attendant Courses | PIPA Testing
 meta_description: RPII Operating and Attendant courses run by Dave Morris. On completion, operators and attendants are added to the RPII Register of Safe Operators and Attendants for 3 years.

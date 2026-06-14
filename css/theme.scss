@@ -45,9 +45,16 @@
   --body-background: #f6f3f1;
   --body-background-alt: #efeae8;
 
+  // Compact, corporate rhythm: pull section padding in from the stock 96px.
+  // --space-3xl feeds every section-padding-y-* variable in the design system,
+  // so trimming it here tightens the whole vertical rhythm in one move.
+  --space-3xl: 4rem;
+
   --border: 1px solid #ead9d4;
-  --border-radius: 6px;
-  --border-radius-small: 3px;
+
+  // Sharper corners read more corporate than the stock soft radii.
+  --border-radius: 4px;
+  --border-radius-small: 2px;
   --box-shadow:
     0 1px 2px rgb(26 26 26 / 5%),
     0 8px 24px rgb(26 26 26 / 8%);
@@ -60,6 +67,7 @@
 
   --link-decoration: none;
   --link-decoration-hover: underline;
+  --link-decoration-style: solid;
 
   --list-marker-content: "▸  ";
   --list-marker-color: #eb4b36;
@@ -89,8 +97,8 @@ body::before {
   z-index: -1;
   inset: 0;
   background:
-    url("/images/brand-logo.png") no-repeat right -6rem bottom -6rem / 32rem auto;
-  opacity: 0.04;
+    url("/images/brand-mark.png") no-repeat right -4rem bottom -5rem / 24rem auto;
+  opacity: 0.035;
   pointer-events: none;
 }
 
@@ -145,10 +153,24 @@ body::before {
     align-items: center;
     gap: 1.5rem;
 
+    // Crisp white corporate header bar: a thin brand rule along the top,
+    // a clean white field and a soft shadow lifting it off the page.
+    background: #ffffff;
+    border-top: 3px solid var(--color-link);
+    box-shadow: var(--shadow-sm);
+    padding-inline: 1.25rem;
+
+    // Tighten the menu so all nine items hold a single line on desktop
+    // instead of spilling onto an awkward second row.
     > ul {
       flex: 0 1 auto;
+      flex-wrap: wrap;
       justify-content: flex-end;
       align-items: center;
+      gap: 0 0.95rem;
+      font-size: 0.92rem;
+      font-weight: 500;
+      letter-spacing: 0.01em;
     }
   }
 }
@@ -173,7 +195,7 @@ body::before {
   img {
     display: block;
     width: auto !important;
-    height: 44px !important;
+    height: 52px !important;
     max-width: none !important;
     aspect-ratio: auto !important;
     background: none !important;
@@ -181,7 +203,7 @@ body::before {
 
   picture {
     display: block;
-    height: 44px;
+    height: 52px;
   }
 
   picture img {
@@ -248,4 +270,32 @@ a {
 // Tinted table headers
 table thead {
   background-color: var(--color-tint);
+}
+
+// Eyebrow labels — the small subtitle that sits above split headings
+// (e.g. "BS EN 14960:2019", "Meet Dave Morris") reads as a brand-red,
+// tracked label rather than muted grey: a classic corporate section cue.
+.design-system .split .stack > .text-muted:first-child,
+.design-system .split-callout .stack > .text-muted:first-child {
+  color: var(--color-link);
+  font-family: var(--font-family-body);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+// Feature cards — square them off to match the sharper corporate radius
+// and top each one with a thin brand rule so the grid reads as a tidy,
+// structured row rather than soft floating tiles.
+.design-system .feature {
+  border-radius: var(--border-radius);
+  border-top: 2px solid var(--color-link);
+}
+
+// Buttons — a hair of tracking and weight makes the calls-to-action feel
+// deliberate and on-brand.
+.design-system .btn {
+  font-weight: 600;
+  letter-spacing: 0.01em;
 }
