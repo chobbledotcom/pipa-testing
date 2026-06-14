@@ -1,6 +1,5 @@
 ---
 permalink: "/"
-layout: design-system-base.html
 name: Home
 meta_title: PIPA Testing - Inflatable Inspections, RPII Courses & Repairs
 meta_description: Inflatable inspections, PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs by Dave Morris (RPII-accredited). Hampshire, Surrey, Sussex and across the UK.

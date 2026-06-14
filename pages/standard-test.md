@@ -1,6 +1,5 @@
 ---
 permalink: /standard-test/
-layout: design-system-base.html
 name: Standard Test
 meta_title: Standard Inflatable Test BS EN 14960:2019 | PIPA Testing
 meta_description: Annual inspections for inflatables to BS EN 14960:2019 by Dave Morris, an RPII-accredited inspector. Mobile service across Hampshire, Surrey, Sussex and the UK.
