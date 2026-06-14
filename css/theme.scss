@@ -240,9 +240,11 @@ body::before {
   font-family: var(--font-family-heading);
 }
 
-// Quiet hover lift on cards and buttons.
+// Quiet hover lift on the feature cards (and a soft transition on buttons).
+// Scoped to .feature deliberately: a broad `article:hover` also caught the
+// <article class="stack"> wrapper on every split block, so hovering body
+// prose lifted and shadowed the whole text column.
 @media (prefers-reduced-motion: no-preference) {
-  .design-system article,
   .design-system .btn,
   .design-system button,
   .design-system .feature,
@@ -254,8 +256,7 @@ body::before {
       border-color 0.2s ease;
   }
 
-  .design-system .feature:hover,
-  .design-system article:hover {
+  .design-system .feature:hover {
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
   }
