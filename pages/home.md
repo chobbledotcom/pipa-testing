@@ -16,8 +16,15 @@ blocks:
       ## Inflatable inspections by Dave Morris
 
       PIPA tests, BS EN 14960:2019 standard tests, PAT testing, RPII operator courses and on-site repairs, covering bouncy castles, slides, obstacle courses, bouncing pillows and more.
-
-      [Call Dave](tel:+447990520545) [Get a quote](/contact/)
+    buttons:
+      - text: Call Dave
+        href: tel:+447990520545
+        variant: primary
+        size: lg
+      - text: Get a quote
+        href: /contact/
+        variant: secondary
+        size: lg
   - type: callout
     variant: success
     icon: mdi:tag

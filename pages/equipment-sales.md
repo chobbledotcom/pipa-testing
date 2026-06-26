@@ -15,8 +15,15 @@ blocks:
       ## Equipment sales
 
       Compliant anchor stakes, barrier fencing and bouncy castle repair kits, the bits and pieces you need to keep your kit in good order between inspections.
-
-      [Order from Dave](tel:+447990520545) [Email us](mailto:pipatesting@gmail.com)
+    buttons:
+      - text: Order from Dave
+        href: tel:+447990520545
+        variant: primary
+        size: lg
+      - text: Email us
+        href: mailto:pipatesting@gmail.com
+        variant: secondary
+        size: lg
   - type: image-cards
     intro_content: |
       ## Available to order

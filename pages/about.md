@@ -15,8 +15,15 @@ blocks:
       ## David (Dave) Morris
 
       RPII-accredited PIPA inspector. Inflatable testing, repairs and RPII operator courses across Hampshire, Surrey, Sussex and the wider UK.
-
-      [Call Dave](tel:+447990520545) [Send a message](/contact/)
+    buttons:
+      - text: Call Dave
+        href: tel:+447990520545
+        variant: primary
+        size: lg
+      - text: Send a message
+        href: /contact/
+        variant: secondary
+        size: lg
   - type: split-callout
     content: |
       ## Dave answers his own phone
