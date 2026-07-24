@@ -4,15 +4,15 @@ name: RPII Courses
 meta_title: RPII Operating & Attendant Courses | PIPA Testing
 meta_description: RPII Operating and Attendant courses run by Dave Morris. On completion, operators and attendants are added to the RPII Register of Safe Operators and Attendants for 3 years.
 eleventyNavigation:
-  key: RPII Courses
-  order: 6
+  key: Training
+  order: 2
 blocks:
   - type: image-background
     image: /images/jumping-pillow.jpg
     image_alt: Jumping pillow outdoors on a sunny day
     tint: true
     content: |
-      ## RPII operator courses
+      # RPII operator courses
 
       Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
     buttons:
@@ -24,14 +24,21 @@ blocks:
         href: tel:+447990520545
         variant: secondary
         size: lg
-  - type: section-header
-    intro: |
-      ## What the courses cover
-
-      Dave's RPII Operating &amp; Attendant courses train your team to set up, run and supervise inflatables safely, in line with current industry guidance.
-
-      On completion, participants are added to the **RPII Register of Safe Operators and Attendants** for **three years**, which gives your business a recognised credential to point customers and venues at when they ask.
+  - type: stats
+    compact: true
+    intro_content: |
+      ## Course at a glance
+    items:
+      - value: 3 years
+        label: RPII registration after successful completion
+      - value: On-site
+        label: Training available at your premises
+      - value: Groups
+        label: Commercial operators and attendants
+      - value: Practical
+        label: Setup, checks and supervision
   - type: features
+    compact: true
     intro_content: |
       ## What's covered
     items:
@@ -54,6 +61,7 @@ blocks:
         name: 3-year registration
         description: Successful candidates are added to the RPII Register of Safe Operators and Attendants for three years.
   - type: split-callout
+    compact: true
     content: |
       ## Who it's for
 
@@ -64,14 +72,17 @@ blocks:
     figure_name: Operators &amp; attendants
     figure_subtitle: 3-year RPII registration on completion
     figure_variant: primary
-  - type: cta
-    content: |
-      ## Book your team in
-
-      Call Dave on **07990 520545** or the office on **01428 751925** to discuss dates, group sizes and pricing.
-    button:
-      text: Get in touch
-      href: /contact/
-      variant: secondary
-      size: lg
+  - type: faqs
+    compact: true
+    intro_content: |
+      ## Planning a course
+    items:
+      - question: Where can the course run?
+        answer: Dave can deliver group training at your premises or arrange it at the Havant base. The available setup depends on group size and the equipment used for the practical work.
+      - question: How much does it cost?
+        answer: Pricing depends on group size, location and delivery requirements. Send those details and Dave will quote the course directly.
+      - question: What do successful candidates receive?
+        answer: Successful candidates are added to the RPII Register of Safe Operators and Attendants for three years.
+  - type: snippet
+    reference: contact-cta
 ---

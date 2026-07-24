@@ -1,0 +1,69 @@
+{
+  "fields": [
+    {
+      "name": "name",
+      "label": "Name",
+      "placeholder": "Your name",
+      "required": true
+    },
+    {
+      "name": "business",
+      "label": "Business or organisation",
+      "placeholder": "Business, school or venue"
+    },
+    {
+      "name": "email",
+      "type": "email",
+      "label": "Email",
+      "placeholder": "Your email address",
+      "required": true
+    },
+    {
+      "name": "phone",
+      "type": "tel",
+      "label": "Phone",
+      "placeholder": "Your phone number"
+    },
+    {
+      "name": "enquiry_type",
+      "type": "select",
+      "label": "What do you need?",
+      "required": true,
+      "options": [
+        "Help choosing a test",
+        "PIPA testing",
+        "Standard testing",
+        "PAT testing",
+        "RPII operator course",
+        "Inflatable repair",
+        "Equipment order",
+        "Something else"
+      ]
+    },
+    {
+      "name": "location",
+      "label": "Location or postcode",
+      "placeholder": "Where the work is needed"
+    },
+    {
+      "name": "equipment",
+      "label": "Equipment and quantity",
+      "placeholder": "For example: 18 bouncy castles and 4 slides"
+    },
+    {
+      "name": "preferred_date",
+      "label": "Preferred date or timeframe",
+      "placeholder": "If you have one in mind"
+    },
+    {
+      "name": "message",
+      "type": "textarea",
+      "label": "Anything else Dave should know?",
+      "placeholder": "Include repair details, access requirements or any questions",
+      "required": true,
+      "rows": 5
+    }
+  ],
+  "itemTagLabels": {},
+  "submitButtonText": "Send enquiry"
+}

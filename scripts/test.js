@@ -1,27 +1,83 @@
+import { join } from "node:path";
 import { prep } from "./prepare-dev.js";
-import { bun, fs, path } from "./utils.js";
+import { bun, path, read } from "./utils.js";
 
-process.env.PLACEHOLDER_IMAGES = "1";
-
-const templateTest = path(".build", "template", "test");
-const devTest = path(".build", "dev", "test");
 const dev = path(".build", "dev");
-const submoduleToolkit = path("chobble-template", "packages", "js-toolkit");
-const devToolkit = path(".build", "dev", "packages", "js-toolkit");
+const output = join(dev, "_site");
+
+const pages = [
+  "index.html",
+  "about/index.html",
+  "contact/index.html",
+  "equipment-sales/index.html",
+  "inflatable-repairs/index.html",
+  "pipa-testing/index.html",
+  "rpii-courses/index.html",
+  "safety/index.html",
+  "standard-test/index.html",
+  "testing/index.html",
+  "thank-you/index.html",
+  "bunnycdn_errors/404.html",
+];
+
+const assert = (condition, message) => {
+  if (!condition) throw new Error(message);
+};
+
+const validateHeading = async (relativePath) => {
+  const html = await read(join(output, relativePath));
+  const headings = html.match(/<h[1-6](?:\s|>)/g) ?? [];
+  const h1s = html.match(/<h1(?:\s|>)/g) ?? [];
+
+  assert(
+    headings[0]?.startsWith("<h1"),
+    `${relativePath} must start with an h1`,
+  );
+  assert(h1s.length === 1, `${relativePath} must contain exactly one h1`);
+  assert(
+    !html.includes("{{ site."),
+    `${relativePath} contains unresolved site data`,
+  );
+
+  return html;
+};
 
 prep();
 
-if (fs.exists(templateTest)) {
-  console.log("Copying test directory...");
-  fs.rm(devTest);
-  fs.cp(templateTest, devTest);
-}
+console.log("Building site for smoke tests...");
+const result = bun.run("build", dev);
+if (result.exitCode !== 0) process.exit(result.exitCode);
 
-if (fs.exists(submoduleToolkit)) {
-  console.log("Syncing #toolkit from submodule...");
-  fs.rm(devToolkit);
-  fs.cp(submoduleToolkit, devToolkit);
-}
+const htmlPages = await Promise.all(pages.map(validateHeading));
+const home = htmlPages[0];
+const contact = htmlPages[2];
+const testing = htmlPages[9];
+const contactForm = JSON.parse(
+  await read(join(dev, "src", "_data", "contact-form.json")),
+);
 
-console.log("Running tests...");
-bun.test(dev);
+assert(
+  home.includes('class="service-grid"'),
+  "Homepage service grid is missing",
+);
+assert(
+  home.includes("Testing at a glance"),
+  "Homepage pricing summary is missing",
+);
+assert(
+  testing.includes("Which test do I need?"),
+  "Testing comparison is missing",
+);
+assert(testing.includes("PIPA testing"), "PIPA testing choice is missing");
+assert(
+  testing.includes("Standard testing"),
+  "Standard testing choice is missing",
+);
+assert(contact.includes('id="enquiry-form"'), "Contact form anchor is missing");
+assert(home.includes('class="footer-grid"'), "Footer content is missing");
+assert(
+  contactForm.fields.some(({ name }) => name === "enquiry_type"),
+  "Contact form enquiry type is missing",
+);
+
+console.log(`Site smoke tests passed for ${pages.length} pages.`);

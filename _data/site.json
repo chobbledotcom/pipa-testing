@@ -1,15 +1,29 @@
 {
-	"name": "PIPA Testing",
-	"url": "https://www.pipatesting.co.uk",
-	"socials": {
-		"Facebook": null,
-		"Instagram": null,
-		"TikTok": null,
-		"Google": null,
-		"WhatsApp": null,
-		"RSS": "/feed.xml"
-	},
-	"sticky_mobile_nav": true,
-	"horizontal_nav": true,
-	"template_repo_url": "https://git.chobble.com/chobble/chobble-client"
+  "name": "PIPA Testing",
+  "url": "https://www.pipatesting.co.uk",
+  "tagline": "Inflatable inspections, training and repairs",
+  "email": "pipatesting@gmail.com",
+  "phone": {
+    "mobile": {
+      "display": "07990 520545",
+      "href": "+447990520545"
+    },
+    "office": {
+      "display": "01428 751925",
+      "href": "+441428751925"
+    }
+  },
+  "location": "Havant, Hampshire",
+  "coverage": "Hampshire, Surrey, Sussex, Wales and nationwide UK travel",
+  "socials": {
+    "Facebook": null,
+    "Instagram": null,
+    "TikTok": null,
+    "Google": null,
+    "WhatsApp": null,
+    "RSS": null
+  },
+  "sticky_mobile_nav": true,
+  "horizontal_nav": true,
+  "template_repo_url": "https://github.com/chobbledotcom/chobble-template"
 }

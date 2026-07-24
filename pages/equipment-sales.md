@@ -2,19 +2,19 @@
 permalink: /equipment-sales/
 name: Equipment Sales
 meta_title: Inflatable Anchor Stakes, Barrier Fencing & Repair Kits | PIPA Testing
-meta_description: Compliant 16mm anchor stakes, orange barrier fencing and bouncy castle repair kits available from Dave Morris. Phone or email to order.
+meta_description: Inflatable anchor stakes, orange barrier fencing and bouncy castle repair kits available from Dave Morris. Phone or email to confirm stock and order.
 eleventyNavigation:
-  key: Equipment Sales
-  order: 8
+  key: Equipment
+  order: 4
 blocks:
   - type: image-background
     image: /images/stakes.jpg
     image_alt: Anchor stakes lying on grass
     tint: true
     content: |
-      ## Equipment sales
+      # Inflatable equipment sales
 
-      Compliant anchor stakes, barrier fencing and bouncy castle repair kits, the bits and pieces you need to keep your kit in good order between inspections.
+      Anchor stakes, barrier fencing and repair kits to keep your equipment ready between inspections.
     buttons:
       - text: Order from Dave
         href: tel:+447990520545
@@ -27,35 +27,32 @@ blocks:
   - type: image-cards
     intro_content: |
       ## Available to order
+
+      Call or email Dave to confirm current stock, quantity and collection or delivery arrangements.
     image_aspect_ratio: 4/3
     items:
       - image: /images/18mm-ground-stakes.jpg
-        name: Compliant anchor stakes
-        description: |
-          16mm dia rebar &times; 380mm o/a. Fully sharpened and deburred. Yellow zinc passivate finish.
-
-          **&pound;3.50 each + VAT**
-        link: /contact/
+        name: Inflatable anchor stakes
+        description: "380mm overall, fully sharpened and deburred with a yellow zinc passivate finish. &pound;3.50 each + VAT."
+        link: /contact/#enquiry-form
       - image: /images/barrier-fencing.jpg
         name: Barrier fencing
-        description: |
-          50 metre rolls at **&pound;26.00 + VAT** per roll.
-
-          1.5m fencing stakes at **&pound;4.50 + VAT** each.
-        link: /contact/
+        description: "50 metre rolls at &pound;26 + VAT. 1.5m fencing stakes are &pound;4.50 + VAT each."
+        link: /contact/#enquiry-form
   - type: callout
     variant: info
     icon: mdi:tools
     name: Bouncy castle repair kit
     content: Fabric and glue, **&pound;20.00 + VAT**. Phone or email Dave to order.
-  - type: cta
-    content: |
-      ## Place an order
-
-      Call Dave on **07990 520545**, the office on **01428 751925**, or send a message.
-    button:
-      text: Contact us
-      href: /contact/
-      variant: secondary
-      size: lg
+  - type: faqs
+    compact: true
+    intro_content: |
+      ## Ordering
+    items:
+      - question: How do I place an order?
+        answer: Call Dave or use the enquiry form with the item and quantity you need. He will confirm stock, the total price and collection or delivery arrangements.
+      - question: Which stakes are right for my equipment?
+        answer: Requirements depend on the inflatable and setup. Tell Dave what the stakes are for and he will confirm the current specification before you order.
+  - type: snippet
+    reference: contact-cta
 ---
