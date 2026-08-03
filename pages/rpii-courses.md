@@ -2,26 +2,26 @@
 permalink: /rpii-courses/
 name: RPII Courses
 meta_title: RPII Operating & Attendant Courses | PIPA Testing
-meta_description: RPII Operating and Attendant courses run by Dave Morris. On completion, operators and attendants are added to the RPII Register of Safe Operators and Attendants for 3 years.
+meta_description: Inflatable operator and attendant training with David Morris of Little Monsters, an RPII-listed Inflatable Operator Exam Centre.
 eleventyNavigation:
   key: Training
   order: 2
 blocks:
   - type: image-background
-    image: /images/jumping-pillow.jpg
-    image_alt: Jumping pillow outdoors on a sunny day
+    image: /images/dave-measuring-purple-inflatable-wall.jpg
+    image_alt: Dave measuring an inflatable wall with a tape
     tint: true
     content: |
       # RPII operator courses
 
-      Hands-on training for inflatable operators and attendants, delivered by an RPII-accredited inspector.
+      Hands-on training for inflatable operators and attendants through Little Monsters, an RPII-listed Inflatable Operator Exam Centre.
     buttons:
       - text: Book a course
         href: /contact/
         variant: primary
         size: lg
-      - text: Talk to Dave
-        href: tel:+447990520545
+      - text: Call the office
+        href: tel:+441428751925
         variant: secondary
         size: lg
   - type: stats
@@ -30,7 +30,7 @@ blocks:
       ## Course at a glance
     items:
       - value: 3 years
-        label: RPII registration after successful completion
+        label: Refresher cycle stated in RPII operator guidance
       - value: On-site
         label: Training available at your premises
       - value: Groups
@@ -44,7 +44,7 @@ blocks:
     items:
       - icon: mdi:shield-check
         name: Safe operation
-        description: Setting up, anchoring and running inflatables in line with BS EN 14960:2019 and PIPA scheme guidance.
+        description: Setting up, anchoring and operating inflatables in line with applicable standards, manufacturer instructions and RPII course requirements.
       - icon: mdi:account-supervisor
         name: Effective supervision
         description: How to attend an inflatable, manage user numbers and step in early when things go wrong.
@@ -58,8 +58,8 @@ blocks:
         name: Incident response
         description: First-response steps for evacuations, deflations and injuries.
       - icon: mdi:certificate
-        name: 3-year registration
-        description: Successful candidates are added to the RPII Register of Safe Operators and Attendants for three years.
+        name: Assessment and register
+        description: Candidates who pass the applicable RPII assessment are entered on the relevant register until its stated expiry date.
   - type: split-callout
     compact: true
     content: |
@@ -70,7 +70,7 @@ blocks:
       Group bookings are welcome. Dave can run the course at your premises or at the Havant base.
     figure_icon: mdi:account-group
     figure_name: Operators &amp; attendants
-    figure_subtitle: 3-year RPII registration on completion
+    figure_subtitle: Registration after passing the applicable assessment
     figure_variant: primary
   - type: faqs
     compact: true
@@ -82,7 +82,14 @@ blocks:
       - question: How much does it cost?
         answer: Pricing depends on group size, location and delivery requirements. Send those details and Dave will quote the course directly.
       - question: What do successful candidates receive?
-        answer: Successful candidates are added to the RPII Register of Safe Operators and Attendants for three years.
+        answer: Candidates who pass the applicable operator or attendant assessment are entered on the relevant RPII register until the expiry date shown on their registration.
   - type: snippet
     reference: contact-cta
+  - type: markdown
+    content: |
+      ## References
+
+      - [Inflatable Operator Exam Centres](https://www.playinspectors.com/inflatable-exam-centres/) - Register of Play Inspectors International
+      - [Inflatable operator refresher guidance](https://www.playinspectors.com/wp-content/uploads/2021/05/Inflatables-Operator-Refresher.pdf) - Register of Play Inspectors International
+      - [Bouncy castles and other play inflatables: safety advice](https://www.hse.gov.uk/entertainment/fairgrounds/inflatables.htm) - Health and Safety Executive
 ---

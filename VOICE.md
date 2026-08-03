@@ -155,7 +155,7 @@ The reason: em-dashes are one of the strongest tells of generated copy. Real pla
 - Headlines where SEO allows
 - Transitions and link text
 - Coverage and area-page intros
-- Service-page intros (PIPA testing, standard test, RPII courses, repairs)
+- Service-page intros (PIPA testing, in-house inspections, RPII courses, repairs)
 
 ## Where NOT to use it
 
@@ -165,7 +165,7 @@ The reason: em-dashes are one of the strongest tells of generated copy. Real pla
 - Insurance certificates, risk assessments, method statements
 - Anywhere ambiguity costs the customer money or clarity
 
-Inconsistency between pages is fine. Different pages have different jobs. The pricing on the PIPA testing page and the test checklist on the standard test page are reference material; they should be plain and unmarketed, but they don't need the conversational voice on top.
+Inconsistency between pages is fine. Different pages have different jobs. The pricing on the PIPA testing page and the test checklist on the in-house inspections page are reference material; they should be plain and unmarketed, but they don't need the conversational voice on top.
 
 ## Anti-patterns
 

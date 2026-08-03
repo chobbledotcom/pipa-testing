@@ -2,9 +2,10 @@
 
 @import url("https://fonts.bunny.net/css?family=inter:400,500,600,700&display=swap");
 
-// PIPA Testing — brand theme
-// Brand red lifted straight off the new logo (#eb4b36) on white,
-// charcoal text, AstoriaRoman for headings. Brand-mark watermark
+// PIPA Testing brand theme
+// A distinct deep blue complements the PIPA and RPII identities without
+// copying either scheme's exact palette. Charcoal text and AstoriaRoman
+// headings keep the site's own character. The brand-mark watermark
 // drifts behind the body so the page feels owned, not generic.
 
 @font-face {
@@ -20,38 +21,38 @@
 :root {
   --width-content: 1300px;
 
-  // Backgrounds: warm white over a faint brand-mark watermark.
-  --color-bg: #fbfafa;
+  // Backgrounds: cool white over a faint brand-mark watermark.
+  --color-bg: #f8fafc;
   --color-card-bg: #ffffff;
-  --color-accent: #fdecea;
-  --color-text: #1a1a1a;
-  --color-text-muted: #5a5a5a;
+  --color-accent: #e8f2fa;
+  --color-text: #152332;
+  --color-text-muted: #526272;
 
-  // Primary: brand red (sampled from branding/logo-03.png)
-  --color-brand: #eb4b36;
-  --color-link: #c43a28;
-  --color-link-hover: #9f2e20;
-  --color-tint: #fdecea;
-  --color-secondary: #1a1a1a;
+  // Primary: a deeper blue than PIPA's own branding.
+  --color-brand: #176fa6;
+  --color-link: #125b8c;
+  --color-link-hover: #0b4268;
+  --color-tint: #e8f2fa;
+  --color-secondary: #152332;
 
   --color-contrast-text: #ffffff;
   --color-contrast-text-muted: rgb(255 255 255 / 85%);
 
-  // Hero gradient: deep red into off-black for a confident, branded ribbon.
+  // Hero gradient: clear blue into navy for a confident, branded ribbon.
   --color-gradient-start: var(--color-brand);
-  --color-gradient-end: #2a1a17;
+  --color-gradient-end: #112e46;
 
-  // Body backdrop: warm off-white with the brand-mark watermark blended
+  // Body backdrop: cool off-white with the brand-mark watermark blended
   // way back so it reads as texture, not pattern.
-  --body-background: #f6f3f1;
-  --body-background-alt: #efeae8;
+  --body-background: #f2f6f9;
+  --body-background-alt: #e7eef3;
 
   // Compact, corporate rhythm: pull section padding in from the stock 96px.
   // --space-3xl feeds every section-padding-y-* variable in the design system,
   // so trimming it here tightens the whole vertical rhythm in one move.
   --space-3xl: 3.5rem;
 
-  --border: 1px solid #ead9d4;
+  --border: 1px solid #d5e1e9;
 
   // Sharper corners read more corporate than the stock soft radii.
   --border-radius: 4px;
@@ -100,11 +101,12 @@ body::before {
   background:
     url("/images/brand-mark.png") no-repeat right -4rem bottom -5rem / 24rem auto;
   opacity: 0.035;
+  filter: hue-rotate(175deg) saturate(0.9) brightness(0.82);
   pointer-events: none;
 }
 
-// Hero / CTA gradient: brand-red bleeding into near-black, with the
-// muted-text variable rewritten so .lead reads as white-on-red.
+// Hero / CTA gradient: blue bleeding into navy, with the muted-text
+// variable rewritten so .lead remains readable.
 .design-system .hero.gradient,
 .design-system section.gradient,
 .design-system .cta {
@@ -118,7 +120,7 @@ body::before {
     border-color: rgb(255 255 255 / 35%);
   }
 
-  // Outlined secondary button reads as white-on-red so it doesn't
+  // Outlined secondary button reads as white-on-blue so it doesn't
   // disappear into the gradient.
   .btn--secondary {
     border-color: var(--color-contrast-text);
@@ -252,6 +254,12 @@ body::before {
   }
 }
 
+// The supplied mark is red artwork; recolour it to match the blue site theme.
+.nav-logo img,
+.footer-logo {
+  filter: hue-rotate(175deg) saturate(0.9) brightness(0.82);
+}
+
 // Practical figures should scan before the supporting copy.
 .design-system .stats .stat .value,
 .design-system .stat .value {
@@ -311,7 +319,7 @@ table thead {
 }
 
 // Eyebrow labels — the small subtitle that sits above split headings
-// (e.g. "BS EN 14960:2019", "Meet Dave Morris") reads as a brand-red,
+// (e.g. "BS EN 14960:2019", "Meet Dave Morris") reads as a brand-blue,
 // tracked label rather than muted grey: a classic corporate section cue.
 .design-system .split .stack > .text-muted:first-child,
 .design-system .split-callout .stack > .text-muted:first-child {
@@ -421,7 +429,7 @@ table thead {
   text-align: left;
 
   a {
-    color: #ff9f92;
+    color: #9dd8ff;
 
     &:hover {
       color: #ffffff;

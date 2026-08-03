@@ -24,6 +24,7 @@ export const sourceExcludes = [
   "bun.lock",
   "_site",
   "old_site",
+  "beeper-export",
   "chobble-template",
   "CLAUDE.md",
   "VOICE.md",

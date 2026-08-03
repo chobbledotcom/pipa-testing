@@ -2,25 +2,25 @@
 permalink: /safety/
 name: Safety
 meta_title: Inflatable Safety & the PIPA Scheme | PIPA Testing
-meta_description: Understand what a current PIPA tag shows, how scheme testing differs from a standard inspection and how to arrange a test with Dave Morris.
+meta_description: Understand what a current PIPA tag shows, when another competent inspection route applies and how to arrange an inflatable inspection.
 eleventyNavigation:
   key: Safety
   parent: Testing
-  order: 3
+  order: 5
 blocks:
   - type: image-background
-    image: /images/pipa-app.jpg
-    image_alt: Hand holding a phone using the PIPA web app to record a test
+    image: /images/dave-measuring-inflatable-step-with-level.jpg
+    image_alt: Dave measuring an inflatable step with a tape and spirit level
     tint: true
     content: |
       # Inflatable safety and the PIPA scheme
 
-      What a current tag records, when a standard inspection applies and how to keep test information straightforward.
+      What a current tag records, when another competent inspection route applies and how to keep test information straightforward.
   - type: callout
     variant: warning
     icon: mdi:alert
     name: Check the route that applies
-    content: Equipment within the PIPA scheme should carry a current tag and database record. Equipment outside the scheme may still require a standard inspection against the applicable part of BS EN 14960.
+    content: Commercial equipment within PIPA scope should carry a current tag and database record. Equipment outside the scheme still needs an appropriate competent-person inspection where law or applicable guidance requires it; the inspection basis depends on the device and may not be BS EN 14960.
   - type: section-header
     compact: true
     intro: |
@@ -35,25 +35,34 @@ blocks:
         description: The equipment and inspection result are recorded through the PIPA scheme.
       - icon: mdi:account-tie
         name: Qualified inspector
-        description: The test is carried out by Dave as an RPII-accredited inspector and PIPA inspection body.
+        description: Dave is listed by RPII as an Annual Inflatable Inspector and records eligible inspections through the PIPA scheme.
       - icon: mdi:calendar-check
         name: Current status
         description: The database record allows the current recorded inspection status to be checked.
+      - icon: mdi:numeric
+        name: Unique identification
+        description: The tag number connects the physical inflatable to its individual record rather than another similar unit.
+      - icon: mdi:file-document-outline
+        name: Inspection details
+        description: The record provides the inspection information that operators and venues can check when reviewing equipment.
+      - icon: mdi:shield-check-outline
+        name: Evidence for venues
+        description: A current record helps customers, schools and event organisers verify the unit's recorded inspection status.
   - type: split-image
     compact: true
     content: |
-      ## Verify the record, not just the label
+      ## Record the inspection findings
 
-      A physical tag identifies the unit, while the PIPA database holds the inspection record. Checking both avoids relying on a label alone.
-    figure_src: /images/pipa-app.jpg
-    figure_alt: A phone being used to record an inflatable inspection
+      Dave records inspection findings through the PIPA system. A physical tag identifies an eligible unit, while the database holds its inspection report and current recorded status.
+    figure_src: /images/pipa-inspection-app-close-up.jpg
+    figure_alt: An open-side fall-off-height result being entered into the PIPA inspection system
   - type: faqs
     compact: true
     intro_content: |
       ## Testing and records
     items:
       - question: Does every inflatable receive a PIPA tag?
-        answer: No. PIPA applies to equipment within the scheme's scope. Other inflatable equipment may receive a standard inspection and certificate instead. Dave can confirm the route from the equipment details.
+        answer: No. PIPA applies only to equipment within current scheme scope. Dave may be able to provide an in-house report for some non-mechanical inflatable equipment, while other devices require a different specialist inspection body.
       - question: Does a tag replace routine operator checks?
         answer: No. The recorded inspection is one part of safe operation. Operators still need appropriate setup, supervision, weather monitoring and pre-use checks.
       - question: What if I am unsure whether a test is current?
@@ -62,4 +71,11 @@ blocks:
     reference: testing-choice
   - type: snippet
     reference: contact-cta
+  - type: markdown
+    content: |
+      ## References
+
+      - [Bouncy castles and other play inflatables: safety advice](https://www.hse.gov.uk/entertainment/fairgrounds/inflatables.htm) - Health and Safety Executive
+      - [Do inflatables need testing?](https://www.pipa.org.uk/public-organisations/do-inflatables-need-testing/) - PIPA
+      - [Check a PIPA tag or inspection report](https://www.pipa.org.uk/) - PIPA
 ---

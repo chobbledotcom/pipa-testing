@@ -16,6 +16,8 @@ const pages = [
   "safety/index.html",
   "standard-test/index.html",
   "testing/index.html",
+  "testing-costs/index.html",
+  "bouncing-pillow-testing/index.html",
   "thank-you/index.html",
   "bunnycdn_errors/404.html",
 ];
@@ -61,8 +63,8 @@ assert(
   "Homepage service grid is missing",
 );
 assert(
-  home.includes("Testing at a glance"),
-  "Homepage pricing summary is missing",
+  home.includes("Testing costs and capacity"),
+  "Homepage pricing-page link is missing",
 );
 assert(
   testing.includes("Which test do I need?"),
@@ -70,8 +72,8 @@ assert(
 );
 assert(testing.includes("PIPA testing"), "PIPA testing choice is missing");
 assert(
-  testing.includes("Standard testing"),
-  "Standard testing choice is missing",
+  testing.includes("In-house inspections"),
+  "In-house inspection choice is missing",
 );
 assert(contact.includes('id="enquiry-form"'), "Contact form anchor is missing");
 assert(home.includes('class="footer-grid"'), "Footer content is missing");

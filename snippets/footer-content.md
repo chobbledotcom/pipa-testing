@@ -12,20 +12,20 @@ name: Footer Content
     <ul>
       <li><a href="/testing/">Choose a test</a></li>
       <li><a href="/pipa-testing/">PIPA testing</a></li>
-      <li><a href="/standard-test/">Standard testing</a></li>
+      <li><a href="/standard-test/">In-house inspections</a></li>
       <li><a href="/rpii-courses/">RPII courses</a></li>
       <li><a href="/inflatable-repairs/">Inflatable repairs</a></li>
       <li><a href="/equipment-sales/">Equipment sales</a></li>
     </ul>
   </div>
   <div class="footer-contact">
-    <p class="footer-heading">Contact Dave</p>
+    <p class="footer-heading">Contact PIPA Testing</p>
     <ul>
-      <li><a href="tel:+447990520545">07990 520545</a></li>
       <li><a href="tel:+441428751925">Office: 01428 751925</a></li>
+      <li><a href="tel:+447766146119">Dave: 07766 146119</a></li>
       <li><a href="mailto:pipatesting@gmail.com">pipatesting@gmail.com</a></li>
       <li>Havant, Hampshire</li>
-      <li>Nationwide UK travel</li>
+      <li>UK travel for suitable bookings</li>
     </ul>
   </div>
 </div>

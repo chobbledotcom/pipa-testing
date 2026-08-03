@@ -9,7 +9,7 @@ eleventyNavigation:
 blocks:
   - type: image-background
     image: /images/sewing.jpg
-    image_alt: Sewing machine repairing inflatable fabric
+    image_alt: Dave sewing inflatable fabric with an industrial sewing machine
     tint: true
     content: |
       # Inflatable repairs
@@ -32,7 +32,7 @@ blocks:
     items:
       - icon: mdi:anchor
         name: New anchors
-        description: Replacement anchor points fitted to current standards.
+        description: Replacement anchor points fitted to the applicable design, manufacturer and safety requirements.
       - icon: mdi:wall
         name: Wall tie repairs
         description: Internal wall tie repairs to keep the structure sound.
@@ -56,9 +56,18 @@ blocks:
       - icon: mdi:camera-outline
         name: Send clear photos
         description: Include a close-up of the damage, a wider view of its position and the equipment make or model where known.
+      - icon: mdi:ruler-square
+        name: Include useful measurements
+        description: Give the approximate size of the damaged area and the inflatable's overall size so Dave can assess the likely work.
       - icon: mdi:map-marker-outline
         name: Agree where the work happens
         description: Dave confirms whether the repair is suitable for an on-site visit or needs workshop space.
+      - icon: mdi:currency-gbp
+        name: Confirm the estimate
+        description: Dave explains the likely repair route and cost from the information available before the work is booked.
+      - icon: mdi:calendar-check-outline
+        name: Arrange the work
+        description: Agree the location, access, timing and how the inflatable needs to be prepared for repair.
       - icon: mdi:check-decagram-outline
         name: Repair and re-test if needed
         description: Where inspection work is involved, Dave explains whether the repaired part needs to be checked again before use.
@@ -75,4 +84,11 @@ blocks:
         answer: Send photographs, the equipment type and size, your location and any deadline. Dave will confirm the likely repair route and quote from there.
   - type: snippet
     reference: contact-cta
+  - type: markdown
+    content: |
+      ## References
+
+      - [Maintenance of work equipment](https://www.hse.gov.uk/work-equipment-machinery/maintenance.htm) - Health and Safety Executive
+      - [Bouncy castles and other play inflatables: safety advice](https://www.hse.gov.uk/entertainment/fairgrounds/inflatables.htm) - Health and Safety Executive
+      - [PIPA technical bulletins and information sheets](https://www.pipa.org.uk/inspectors/technical-bulletin-information-sheets/) - PIPA
 ---

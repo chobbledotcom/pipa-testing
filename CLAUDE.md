@@ -209,3 +209,9 @@ The project enforces strict code quality via Biome.
 4. **Run linter** - `bun run lint:fix` to auto-fix issues
 5. **Keep functions small** - Stay under complexity limit of 7
 6. **Use the #fp utilities** - They're optimized and well-tested
+
+### Feature Card Grids
+
+- Feature cards display in rows of three on desktop.
+- Always use a multiple of three items in a `features` block.
+- Prefer six items so a section looks comprehensive; use three only when further cards would be filler.

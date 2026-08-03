@@ -32,7 +32,7 @@
       "options": [
         "Help choosing a test",
         "PIPA testing",
-        "Standard testing",
+        "In-house inflatable inspection",
         "PAT testing",
         "RPII operator course",
         "Inflatable repair",
@@ -58,7 +58,7 @@
     {
       "name": "message",
       "type": "textarea",
-      "label": "Anything else Dave should know?",
+      "label": "Anything else we should know?",
       "placeholder": "Include repair details, access requirements or any questions",
       "required": true,
       "rows": 5

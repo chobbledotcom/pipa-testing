@@ -10,7 +10,7 @@ blocks:
     content: |
       # Thank you
 
-      Your message has been sent, and we'll be in touch as soon as Dave is back at his desk.
+      Your message has been sent to the office, and we'll be in touch as soon as possible.
     buttons:
       - text: Back to homepage
         href: /
