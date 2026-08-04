@@ -30,7 +30,7 @@ blocks:
     content: |
       ## What is PIPA?
 
-      PIPA, the **Professional Inflatable Play Association**, operates the UK's Inflatable Play Inspection Scheme. PIPA has a strong relationship with the Health and Safety Executive (HSE) and is part of the UK's Fairground Joint Advisory Committee. Its records give operators, venues and customers a straightforward way to confirm that eligible equipment has been independently inspected by a competent inspector.
+      PIPA, the **Professional Inflatable Play Association**, operates the UK's Inflatable Play Inspection Scheme. The scheme is supported by the Health and Safety Executive (HSE), giving operators and customers confidence that eligible equipment has been independently inspected by a competent inspector.
 
       Equipment within scope includes eligible bouncy castles, disco domes, inflatable slides, obstacle courses, bouncing pillows, bungee runs and other inflatables designed for bouncing or sliding. Eligible constant-air non-ride-on games are also included.
 
