@@ -37,6 +37,7 @@
 
   --color-contrast-text: #ffffff;
   --color-contrast-text-muted: rgb(255 255 255 / 85%);
+  --color-link-on-dark: #c7eaff;
 
   // Hero gradient: clear blue into navy for a confident, branded ribbon.
   --color-gradient-start: var(--color-brand);
@@ -140,6 +141,24 @@ body::before {
     var(--color-gradient-start) 0%,
     var(--color-gradient-end) 100%
   );
+}
+
+// Text links need a separate high-contrast colour on blue and dark surfaces.
+// Buttons retain their component-specific colour treatment.
+.design-system .hero.gradient a:not(.btn),
+.design-system section.gradient a:not(.btn),
+.design-system .image-background.tinted a:not(.btn),
+.design-system .cta a:not(.btn),
+.design-system .split-full.dark-left .left a:not(.btn),
+.design-system .split-full.dark-right .right a:not(.btn),
+.design-system .split-full.primary-left .left a:not(.btn),
+.design-system .split-full.primary-right .right a:not(.btn),
+.design-system footer a {
+  color: var(--color-link-on-dark);
+
+  &:hover {
+    color: #ffffff;
+  }
 }
 
 // Keep the primary tasks and direct call action in one compact row.
@@ -427,14 +446,6 @@ table thead {
 // Useful footer content replaces the previous empty RSS-only ending.
 .design-system footer {
   text-align: left;
-
-  a {
-    color: #9dd8ff;
-
-    &:hover {
-      color: #ffffff;
-    }
-  }
 }
 
 .footer-grid {

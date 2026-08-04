@@ -8,14 +8,14 @@ blocks:
 
       One straightforward day rate, with the likely extras made clear before the visit.
     items:
-      - value: "&pound;750 + VAT"
-        label: Testing day rate
-      - value: "Up to 20"
-        label: Units in a typical 8-hour day
-      - value: Included
-        label: Agreed blower PAT service and applicable PIPA tags
-      - value: "&pound;18 each"
-        label: Dave's separate certificates
+      - value: "&pound;750"
+        label: Day rate + VAT
+      - value: "20"
+        label: Up to 20 units per 8-hour day
+      - value: "Yes"
+        label: Agreed blower PAT + applicable PIPA tags included
+      - value: "&pound;18"
+        label: Each separate certificate
   - type: callout
     compact: true
     variant: info
