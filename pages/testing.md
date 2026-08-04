@@ -54,7 +54,7 @@ blocks:
       - question: What happens if a unit fails?
         answer: Dave explains the required work and can often complete minor repairs on-site. Every failure is different, so any repair and re-test cost is based on what the unit has failed on.
       - question: How can I check Dave's credentials?
-        answer: Dave is listed by RPII as an Annual Inflatable Inspector under Little Monsters and serves on the PIPA Leadership Group. Links to both official records are on the [About Dave page](/about/).
+        answer: Dave is a PIPA inspector, is listed by RPII as an Annual Inflatable Inspector under Little Monsters and serves on the PIPA Leadership Group. Little Monsters is also a registered PIPA Inspection Body. Links to the official records are on the [About Dave page](/about/).
   - type: snippet
     reference: contact-cta
   - type: markdown

@@ -2,7 +2,7 @@
 permalink: "/"
 name: Home
 meta_title: PIPA Testing - Inflatable Inspections, Training & Repairs
-meta_description: PIPA and in-house inflatable inspections, PAT testing, RPII operator courses and repairs by RPII-registered Annual Inflatable Inspector Dave Morris.
+meta_description: PIPA and in-house inflatable inspections, PAT testing, RPII courses and repairs by PIPA inspector and RPII-registered inspector Dave Morris.
 blocks:
   - type: image-background
     image: /images/dave-measuring-inflatable-wall-height.jpg
@@ -49,6 +49,38 @@ blocks:
       - icon: mdi:map-marker-radius-outline
         name: Travelling inspections
         description: UK travel is available for suitable bookings, subject to the equipment list, journey and agreed costs.
+  - type: image-cards
+    compact: true
+    intro_content: |
+      ## What the work looks like
+
+      An inspection is more than a quick look at the fabric. Dave works through the measurements, pressure, condition, equipment details and paperwork that apply to each unit. These are some of the jobs that can form part of a visit.
+    image_aspect_ratio: 4/3
+    items:
+      - image: /images/dave-checking-orange-inflatable-entrance.jpg
+        name: Measuring entrances and steps
+        description: Openings, steps, walls and fall-off heights are checked against the requirements that apply to the equipment.
+        link: /pipa-testing/
+      - image: /images/manometer.jpg
+        name: Checking inflation pressure
+        description: Pressure readings help Dave assess whether the inflatable and its blower are operating as intended during the inspection.
+        link: /safety/
+      - image: /images/pipa-app.jpg
+        name: Recording the findings
+        description: Eligible passing units are tagged and their inspection information is recorded through the PIPA system.
+        link: /pipa-testing/
+      - image: /images/dave-testing-inflatable-blower.jpg
+        name: Testing agreed blowers
+        description: Blower PAT can be handled during the visit as a separate electrical-maintenance service included in the day rate.
+        link: /testing-costs/
+      - image: /images/dave-checking-inflatable-stitching.jpg
+        name: Repairing damaged fabric
+        description: Dave can deal with many seams, anchors, beds, tubes, zips and fabric repairs on-site or in the workshop.
+        link: /inflatable-repairs/
+      - image: /images/dave-measuring-bouncing-pillow-perimeter.jpg
+        name: Specialist bouncing-pillow checks
+        description: Permanently installed bouncing pillows need an inspector who has completed the relevant additional training.
+        link: /bouncing-pillow-testing/
   - type: snippet
     reference: service-grid
   - type: callout
@@ -61,13 +93,13 @@ blocks:
     reference: booking-process
   - type: split-image
     compact: true
-    subtitle: RPII-registered inspector
+    subtitle: PIPA and RPII-registered inspector
     content: |
       ## One inspector from visit to report
 
       The office handles enquiries and bookings, then Dave carries out the inspection and paperwork himself. He does not subcontract the work, and minor repairs can often be completed during the same visit.
 
-      Dave is an **RPII-registered Annual Inflatable Inspector** and works through Little Monsters, part of the Monster Event Hire business.
+      Dave is a **PIPA inspector and RPII-registered Annual Inflatable Inspector**. He carries out PIPA inspections through Little Monsters, a registered PIPA Inspection Body and part of the Monster Event Hire business.
     button:
       text: Meet Dave
       href: /about/

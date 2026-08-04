@@ -51,6 +51,22 @@ blocks:
     icon: mdi:tools
     name: Bouncy castle repair kit
     content: Fabric and glue, **&pound;20.00 + VAT**. Phone or email the office to order.
+  - type: features
+    compact: true
+    intro_content: |
+      ## Check the specification before ordering
+
+      The right accessory depends on the inflatable, its instructions and how it will be used. The office can help you narrow down the item, but safe setup still needs to follow the manufacturer information and current guidance.
+    items:
+      - icon: mdi:fan
+        name: Match the blower to the unit
+        description: Fan suitability cannot be confirmed from appearance alone. Send the inflatable and existing blower details, and see how agreed blower [PAT fits into a testing visit](/testing-costs/).
+      - icon: mdi:anchor
+        name: Use suitable anchoring equipment
+        description: Stake and accessory requirements depend on the unit and setup conditions. Read the practical [inflatable safety guidance](/safety/) before use.
+      - icon: mdi:needle
+        name: Know when a kit is not enough
+        description: A small kit may suit limited fabric work, but structural seams, anchors, beds, tubes and zips can require an experienced [inflatable repair](/inflatable-repairs/).
   - type: faqs
     compact: true
     intro_content: |

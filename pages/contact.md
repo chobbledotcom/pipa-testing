@@ -31,13 +31,38 @@ blocks:
         url: mailto:pipatesting@gmail.com
   - type: snippet
     reference: coverage-summary
+  - type: features
+    compact: true
+    intro_content: |
+      ## What to include for a useful answer
+
+      A few practical details help the office answer the right question first time. Use the relevant service page if you need a fuller checklist.
+    items:
+      - icon: mdi:clipboard-check-outline
+        name: PIPA or in-house testing
+        description: Send the equipment types, quantities, make or model, existing tag details, location and preferred date. [Compare the inspection routes](/testing/).
+      - icon: mdi:image-filter-hdr
+        name: Bouncing pillows
+        description: Include the site, manufacturer and model where known, installation details, previous report and current photographs. [See bouncing-pillow testing](/bouncing-pillow-testing/).
+      - icon: mdi:tools
+        name: Inflatable repairs
+        description: Send a close-up, a wider photograph showing where the damage sits, approximate measurements and any deadline. [See the repair service](/inflatable-repairs/).
+      - icon: mdi:school-outline
+        name: RPII courses
+        description: Include the number of candidates, whether they need operator or attendant training, the location and preferred date. [See course details](/rpii-courses/).
+      - icon: mdi:cart-outline
+        name: Equipment orders
+        description: Tell the office which fans, stakes, fencing or repair kits you need and the quantity. [See available equipment](/equipment-sales/).
+      - icon: mdi:map-marker-radius-outline
+        name: Travelling bookings
+        description: Include the full site address, equipment list and any access or accommodation considerations so the journey can be priced properly. [See testing costs](/testing-costs/).
   - type: contact-form
     content: |
       <span id="enquiry-form"></span>
 
       ## Send the office an enquiry
 
-      Include the equipment type and quantity, location and preferred date where possible. For repairs, mention the damaged area and Dave will ask for photographs if needed.
+      Include the equipment type and quantity, location and preferred date where possible. Attach or offer photographs for unusual equipment and repair enquiries.
   - type: markdown
     content: |
       ## References

@@ -35,7 +35,7 @@ blocks:
         description: The equipment and inspection result are recorded through the PIPA scheme.
       - icon: mdi:account-tie
         name: Qualified inspector
-        description: Dave is listed by RPII as an Annual Inflatable Inspector and records eligible inspections through the PIPA scheme.
+        description: Dave is a PIPA inspector, is listed by RPII as an Annual Inflatable Inspector and works through registered PIPA Inspection Body Little Monsters.
       - icon: mdi:calendar-check
         name: Current status
         description: The database record allows the current recorded inspection status to be checked.
@@ -56,6 +56,18 @@ blocks:
       Dave records inspection findings through the PIPA system. A physical tag identifies an eligible unit, while the database holds its inspection report and current recorded status.
     figure_src: /images/pipa-inspection-app-close-up.jpg
     figure_alt: An open-side fall-off-height result being entered into the PIPA inspection system
+  - type: split-image
+    compact: true
+    content: |
+      ## The annual inspection is only one part of safe operation
+
+      Operators still need to follow the manufacturer information and carry out appropriate checks before use. Depending on the equipment and setup, that includes looking at the inflatable's condition and shape, using the correct blower, checking anchor points and accessories, keeping access and impact areas clear, and monitoring weather when it is used outdoors.
+
+      Supervision, user limits and action when damage is found remain day-to-day responsibilities. [RPII operator courses](/rpii-courses/) cover practical setup and operation, while Dave can help with [inflatable repairs](/inflatable-repairs/) and supplies items including [stakes and barrier fencing](/equipment-sales/).
+
+      HSE's inflatable safety guidance is linked below and should be read alongside the manufacturer instructions for the particular unit.
+    figure_src: /images/inflatable-manometer-pressure-reading.jpg
+    figure_alt: Manometer displaying the operating pressure of an inflatable
   - type: faqs
     compact: true
     intro_content: |

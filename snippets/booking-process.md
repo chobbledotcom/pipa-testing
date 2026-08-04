@@ -23,5 +23,5 @@ blocks:
         description: Dave carries out the work himself, records the findings and explains any faults or repairs that need attention.
       - icon: mdi:file-certificate-outline
         name: 6. Complete the paperwork
-        description: Applicable PIPA records, tags and requested certificates are completed after each passing inspection.
+        description: Applicable PIPA records and tags, or in-house reports and requested certificates, are completed after each passing inspection.
 ---

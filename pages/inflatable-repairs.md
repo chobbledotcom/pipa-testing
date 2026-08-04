@@ -24,7 +24,7 @@ blocks:
     variant: info
     icon: mdi:wrench-clock
     name: Often fixed on the same visit
-    content: Many of the smaller repairs (small splits, anchor points, leaking seams and so on) can be done **on-site** while Dave is already there for the inspection, so the inflatable doesn't have to come back for a re-test.
+    content: Many smaller repairs, including small splits, anchor points and leaking seams, can be handled **on-site** while Dave is already there for an inspection. Dave will explain what needs to be checked again before the equipment returns to use.
   - type: features
     compact: true
     intro_content: |
@@ -48,6 +48,16 @@ blocks:
       - icon: mdi:tools
         name: Patches &amp; fabric work
         description: From small punctures to bigger fabric replacements and blown beds.
+  - type: split-image
+    compact: true
+    content: |
+      ## On-site work or the repair workshop?
+
+      Access, weather, the size of the damaged area and the type of stitching or fabric work all affect where a repair can be completed. Smaller accessible faults can often be dealt with during a [testing visit](/testing/), while larger bed, wall-tie and replacement-panel work may need workshop space and machinery.
+
+      Send clear photographs before moving the equipment. Dave can advise how it should be prepared, whether it needs to stay inflated and what inspection or re-check may be required afterwards. For limited fabric work you can also ask about a [repair kit](/equipment-sales/).
+    figure_src: /images/dave-sewing-green-inflatable-fabric.jpg
+    figure_alt: Dave guiding inflatable fabric through an industrial sewing machine
   - type: features
     compact: true
     intro_content: |

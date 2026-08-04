@@ -15,11 +15,11 @@ blocks:
       - value: "Yes"
         label: Agreed blower PAT + applicable PIPA tags included
       - value: "&pound;18"
-        label: Each separate certificate
+        label: Each applicable in-house certificate
   - type: callout
     compact: true
     variant: info
     icon: mdi:information-outline
     name: What is charged separately?
-    content: Dave's separate certificates, extension-lead PAT tests (**&pound;2.50 + VAT per reel**), travel and any overnight accommodation sit outside the day rate. PIPA's online inspection report is part of the scheme record. The office will confirm the likely total before you book.
+    content: Certificates for applicable in-house inspections outside PIPA scope, extension-lead PAT tests (**&pound;2.50 + VAT per reel**), travel and any overnight accommodation sit outside the day rate. PIPA's online inspection report is part of the scheme record, and no separate certificate is issued for PIPA-scope equipment. The office will confirm the likely total before you book.
 ---

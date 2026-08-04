@@ -31,9 +31,9 @@ blocks:
     content: |
       ## A specialist inspection for permanent installations
 
-      A bouncing pillow is anchored into the ground and surrounded by impact-absorbing material. It sits within a specialist part of the PIPA scheme and must be inspected by somebody with the relevant additional training.
+      Part 2 of BS EN 14960:2019 covers permanently installed bouncing pillows. Dave has completed the updated training required to inspect this specialist type of equipment.
 
-      Dave can carry out the annual inspection at your site and complete the PIPA record and tag when the pillow passes.
+      Dave can carry out the annual inspection at your site and issue a PIPA tag for any bouncing pillow that successfully passes its inspection.
     figure_src: /images/dave-inspecting-bouncing-pillow.jpg
     figure_alt: Dave inspecting the edge and surrounding surface of a permanently installed bouncing pillow
   - type: features
@@ -46,9 +46,9 @@ blocks:
       - icon: mdi:image-filter-hdr
         name: Pillow and surroundings
         description: Condition of the bouncing surface, seams, edges, impact-absorbing surround, clearances and perimeter arrangements.
-      - icon: mdi:anchor
-        name: Anchoring and installation
-        description: The permanent installation, foundations, anchoring system and any signs of movement, damage or deterioration.
+      - icon: mdi:grass
+        name: Installation and surrounding area
+        description: The permanent installation, supporting surface and surrounding area, including any signs of movement, damage or deterioration.
       - icon: mdi:gauge
         name: Inflation and fan system
         description: Operating pressure, air loss, fan suitability, electrical supply and protection around the blower equipment.
@@ -61,6 +61,20 @@ blocks:
       - icon: mdi:tag-check-outline
         name: PIPA record and tag
         description: When the pillow passes, Dave completes the applicable PIPA inspection record and tag details for the installation.
+  - type: gallery
+    compact: true
+    aspect_ratio: 4/3
+    intro_content: |
+      ## Inspecting the installation in detail
+
+      The visit considers the pillow itself as well as its edges, surrounding impact area, perimeter arrangements, fan system and available records. Read more about the wider [PIPA inspection scheme](/pipa-testing/), [testing costs and travel](/testing-costs/), or what a [PIPA record shows](/safety/).
+    items:
+      - image: /images/dave-inspecting-bouncing-pillow.jpg
+        caption: Checking the pillow edge and surrounding impact area
+      - image: /images/dave-measuring-bouncing-pillow-perimeter.jpg
+        caption: Measuring around the perimeter of a permanent installation
+      - image: /images/dave-measuring-bouncing-pillow-edge.jpg
+        caption: Taking a closer measurement at the pillow edge
   - type: callout
     compact: true
     variant: info

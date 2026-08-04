@@ -1,8 +1,8 @@
 ---
 permalink: /pipa-testing/
 name: PIPA Testing
-meta_title: PIPA Testing for Inflatables | Dave Morris RPII Inspector
-meta_description: PIPA tests carried out personally by RPII-registered Annual Inflatable Inspector Dave Morris. See current scope, pricing and booking details.
+meta_title: PIPA Testing for Inflatables | Dave Morris PIPA Inspector
+meta_description: PIPA tests by Dave Morris, a PIPA inspector and RPII-registered Annual Inflatable Inspector working through registered PIPA Inspection Body Little Monsters.
 eleventyNavigation:
   key: PIPA Testing
   parent: Testing
@@ -25,6 +25,20 @@ blocks:
         href: /safety/
         variant: secondary
         size: lg
+  - type: split-callout
+    compact: true
+    content: |
+      ## What is PIPA?
+
+      PIPA, the **Professional Inflatable Play Association**, operates the UK's Inflatable Play Inspection Scheme. PIPA has a strong relationship with the Health and Safety Executive (HSE) and is part of the UK's Fairground Joint Advisory Committee. Its records give operators, venues and customers a straightforward way to confirm that eligible equipment has been independently inspected by a competent inspector.
+
+      Equipment within scope includes eligible bouncy castles, disco domes, inflatable slides, obstacle courses, bouncing pillows, bungee runs and other inflatables designed for bouncing or sliding. Eligible constant-air non-ride-on games are also included.
+
+      A unit that passes is PIPA tagged and recorded on the official PIPA database with its online inspection report. Dave carries out these inspections through **Little Monsters, a registered PIPA Inspection Body**, and is also an RPII-registered Annual Inflatable Inspector.
+    figure_icon: mdi:shield-check-outline
+    figure_name: PIPA inspection scheme
+    figure_subtitle: Tag, database record and online report
+    figure_variant: primary
   - type: snippet
     reference: testing-choice
   - type: features
@@ -45,7 +59,7 @@ blocks:
         description: Eligible constant-air games include many archery and axe games, dartboards, shootouts, bowling alleys, side stalls and sports games.
       - icon: mdi:image-filter-hdr
         name: Bouncing pillows
-        description: Permanently installed bouncing pillows can be PIPA tested by inspectors who have completed the relevant additional training.
+        description: Permanently installed bouncing pillows can be PIPA tested by inspectors who have completed the relevant additional training. [See Dave's bouncing-pillow service](/bouncing-pillow-testing/).
       - icon: mdi:water
         name: Water and toddler equipment
         description: Eligible water slides are within scope. Toddler playzones can only be inspected by inspectors who have completed PIPA's additional module.
@@ -70,19 +84,19 @@ blocks:
         description: Dimensions, structure, seams, anchor points, pressure, markings and other applicable safety checks.
       - icon: mdi:fan
         name: Separate electrical service
-        description: PAT for agreed blowers is included in Dave's day rate as a separate service, not as part of the PIPA scheme inspection.
+        description: PAT for agreed blowers is included in Dave's day rate as a separate service, not as part of the PIPA scheme inspection. [See testing costs](/testing-costs/).
       - icon: mdi:file-document-check-outline
         name: Documents and markings
         description: Dave checks the available manufacturer information, operating instructions, identification and applicable user-limit markings.
       - icon: mdi:alert-circle-check-outline
         name: Findings explained
-        description: Any faults or advisories are recorded and explained, including the work needed before a failed unit can pass.
+        description: Any faults or advisories are recorded and explained, including the work needed before a failed unit can pass. Dave can handle many [inflatable repairs](/inflatable-repairs/).
       - icon: mdi:tag-check
         name: Tag and database record
         description: Applicable PIPA tags and records are completed when the unit passes inspection.
-      - icon: mdi:file-certificate-outline
-        name: Separate certificate
-        description: The scheme provides an online inspection report. If you also need Dave's separate certificate, it is &pound;18 and sits outside the day rate.
+      - icon: mdi:file-document-check-outline
+        name: Online inspection report
+        description: The PIPA scheme record includes the online inspection report for a passing unit, so no separate certificate is issued.
   - type: callout
     compact: true
     variant: info
@@ -113,7 +127,9 @@ blocks:
     content: |
       ## References
 
+      - [What is PIPA?](https://www.pipa.org.uk/about-us/what-is-pipa/) - PIPA
       - [Scope of the PIPA inspection scheme](https://www.pipa.org.uk/about-us/scope-of-scheme/) - PIPA
+      - [Registered PIPA inspection bodies](https://www.pipa.org.uk/resources/inspection-body-list/) - PIPA
       - [Bungee runs included within the PIPA scheme](https://www.pipa.org.uk/pipa-updates/bungee-runs-included-within-scheme/) - PIPA
       - [Bouncy castles and other play inflatables: safety advice](https://www.hse.gov.uk/entertainment/fairgrounds/inflatables.htm) - Health and Safety Executive
 ---

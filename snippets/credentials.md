@@ -13,8 +13,8 @@ blocks:
         name: RPII registered
         description: Dave is publicly listed by RPII as an Annual Inflatable Inspector under Little Monsters.
       - icon: mdi:tag-check
-        name: PIPA inspections
-        description: Eligible inspections, annual renewals and applicable tags are recorded through the PIPA scheme.
+        name: Registered PIPA Inspection Body
+        description: Dave carries out eligible PIPA inspections through Little Monsters, a registered PIPA Inspection Body.
       - icon: mdi:account-group
         name: PIPA Leadership Group
         description: Dave has been involved with PIPA from the start and serves on the PIPA Leadership Group.
