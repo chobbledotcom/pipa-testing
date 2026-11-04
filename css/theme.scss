@@ -58,9 +58,7 @@
   // Sharper corners read more corporate than the stock soft radii.
   --border-radius: 4px;
   --border-radius-small: 2px;
-  --box-shadow:
-    0 1px 2px rgb(26 26 26 / 5%),
-    0 8px 24px rgb(26 26 26 / 8%);
+  --box-shadow: 0 1px 2px rgb(26 26 26 / 5%), 0 8px 24px rgb(26 26 26 / 8%);
   --shadow-sm: 0 1px 2px rgb(26 26 26 / 6%), 0 4px 12px rgb(26 26 26 / 8%);
   --shadow-md: 0 4px 12px rgb(26 26 26 / 12%), 0 16px 40px rgb(26 26 26 / 10%);
 
@@ -99,8 +97,8 @@ body::before {
   position: fixed;
   z-index: -1;
   inset: 0;
-  background:
-    url("/images/brand-mark.png") no-repeat right -4rem bottom -5rem / 24rem auto;
+  background: url("/images/brand-mark.png") no-repeat right -4rem bottom -5rem /
+    24rem auto;
   opacity: 0.035;
   filter: hue-rotate(175deg) saturate(0.9) brightness(0.82);
   pointer-events: none;
@@ -447,6 +445,10 @@ table thead {
 // Useful footer content replaces the previous empty RSS-only ending.
 .design-system footer {
   text-align: left;
+  p::last-child {
+    text-align: center;
+    font-size: smaller;
+  }
 }
 
 .footer-grid {
